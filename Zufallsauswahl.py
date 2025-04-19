@@ -42,6 +42,16 @@ def WoW_Auswahl():
     WoW_label = Label(fenster, text=zufaellige_Auswahl_WoW, font=("Arial", 16))
     WoW_label.grid(row=0, column=0)
 
+def Baldurs_Gate_3_Auswahl ():
+    for widget in fenster.winfo_children ():
+        widget.destroy ()
+    Baldurs_Gate_3_Auswahlliste = ["Barbar", "Barde", "Druide", "Hexenmeister", 
+                                   "Kämpfer", "Kleriker", "Magier", "Mönch", "Paladin", 
+                                   "Schurke", "Waldläufer", "Zauberer"]
+    zufaellige_Auswahl_Baldurs_Gate_3 = random.choice (Baldurs_Gate_3_Auswahlliste)
+    Baldurs_Gate_3_label = Label (fenster, text=zufaellige_Auswahl_Baldurs_Gate_3, front = ("Arial", 16))
+    Baldurs_Gate_3_label.grid (row=0, column=0)
+
 fenster = Tk()
 fenster.title("Hauptmenü")
 fenster.geometry ("800x500")
@@ -51,5 +61,8 @@ WoW_Button.grid(row=0, column=0)
 
 Zufallsauswahl_Button = Button(fenster, text="Zufallsauswahl aus erstellter Liste", command=Zufallsauswahl)
 Zufallsauswahl_Button.grid(row=0, column=1)
+
+Baldurs_Gate_3_Button = Button (fenster, text="Baldurs Gate 3", command=Baldurs_Gate_3_Auswahl)
+Baldurs_Gate_3_Button.grid (row=0, column=2)
 
 fenster.mainloop()
