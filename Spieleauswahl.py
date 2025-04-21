@@ -69,3 +69,11 @@ def Monster_Hunter_Wilds_Rise_World_Auswahl (fenster):
     zufaellige_Auswahl_Monster_Hunter_Wilds_Rise_World = random.choice (Monster_Hunter_Wilds_Rise_World_Auswahlliste)
     Monster_Hunter_Wilds_Rise_World_label = Label (fenster, text=zufaellige_Auswahl_Monster_Hunter_Wilds_Rise_World, font=("Arial", 16))
     Monster_Hunter_Wilds_Rise_World_label.grid (row=0, column=0)
+
+def Wild_Hearts_Auswahl (fenster):
+    for widget in fenster.winfo_children ():
+        widget.destroy ()
+    Wild_Hearts_Auswahlliste = ["Krallenklinge", "Bogen", "Karakuri-Katana", "Nodachi", "Handkanone", "Karakuri-Stab", "Hammer", "Klingen-Wagasa"]
+    zufaellige_Auswahl_Wild_Hearts = random.choice (Wild_Hearts_Auswahlliste)
+    Wild_Hearts_label = Label (fenster, text=zufaellige_Auswahl_Wild_Hearts, font=("Arial", 16))
+    Wild_Hearts_label.grid (row=0, column=0)

@@ -21,4 +21,7 @@ Diablo_4_Button.grid (row=0, column=3)
 Monster_Hunter_Wilds_Rise_World_Button = Button (fenster, text="Monster Hunter Wilds/Rise/World", command=lambda:Monster_Hunter_Wilds_Rise_World_Auswahl (fenster))
 Monster_Hunter_Wilds_Rise_World_Button.grid (row=1, column=1)
 
+Wild_Hearts_Button = Button (fenster, text="Wild Hearts", command=lambda:Wild_Hearts_Auswahl (fenster))
+Wild_Hearts_Button.grid (row=0, column=4)
+
 fenster.mainloop()
