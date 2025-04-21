@@ -59,3 +59,13 @@ def Diablo_4_Auswahl (fenster):
     zufaellige_Auswahl_Diablo_4 = random.choice (Diablo_4_Auswahlliste)
     Diablo_4_label = Label (fenster, text=zufaellige_Auswahl_Diablo_4, font=("Arial", 16))
     Diablo_4_label.grid (row=0, column=0)
+
+def Monster_Hunter_Wilds_Rise_World_Auswahl (fenster):
+    for widget in fenster.winfo_children ():
+        widget.destroy ()
+    Monster_Hunter_Wilds_Rise_World_Auswahlliste = ["Langschwert", "Bogen", "Doppelklingen", "Gewehrlanze", "Großschwert", "schweres Bogengewehr",
+                                                    "Energieklinge", "Jagdhorn", "Schwert und Schild", "Morph-Axt", "leichtes Bogengewehr",
+                                                    "Hammer", "Insektengleve", "Lanze"]
+    zufaellige_Auswahl_Monster_Hunter_Wilds_Rise_World = random.choice (Monster_Hunter_Wilds_Rise_World_Auswahlliste)
+    Monster_Hunter_Wilds_Rise_World_label = Label (fenster, text=zufaellige_Auswahl_Monster_Hunter_Wilds_Rise_World, font=("Arial", 16))
+    Monster_Hunter_Wilds_Rise_World_label.grid (row=0, column=0)

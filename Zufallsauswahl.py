@@ -18,4 +18,7 @@ Baldurs_Gate_3_Button.grid (row=0, column=2)
 Diablo_4_Button = Button (fenster, text="Diablo 4", command=lambda:Diablo_4_Auswahl (fenster))
 Diablo_4_Button.grid (row=0, column=3)
 
+Monster_Hunter_Wilds_Rise_World_Button = Button (fenster, text="Monster Hunter Wilds/Rise/World", command=lambda:Monster_Hunter_Wilds_Rise_World_Auswahl (fenster))
+Monster_Hunter_Wilds_Rise_World_Button.grid (row=1, column=1)
+
 fenster.mainloop()
