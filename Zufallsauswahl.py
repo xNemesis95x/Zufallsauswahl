@@ -15,4 +15,7 @@ Zufallsauswahl_Button.grid(row=0, column=1)
 Baldurs_Gate_3_Button = Button (fenster, text="Baldurs Gate 3", command=lambda:Baldurs_Gate_3_Auswahl (fenster))
 Baldurs_Gate_3_Button.grid (row=0, column=2)
 
+Diablo_4_Button = Button (fenster, text="Diablo 4", command=lambda:Diablo_4_Auswahl (fenster))
+Diablo_4_Button.grid (row=0, column=3)
+
 fenster.mainloop()

@@ -51,3 +51,11 @@ def Baldurs_Gate_3_Auswahl (fenster):
     zufaellige_Auswahl_Baldurs_Gate_3 = random.choice (Baldurs_Gate_3_Auswahlliste)
     Baldurs_Gate_3_label = Label (fenster, text=zufaellige_Auswahl_Baldurs_Gate_3, font = ("Arial", 16))
     Baldurs_Gate_3_label.grid (row=0, column=0)
+
+def Diablo_4_Auswahl (fenster):
+    for widget in fenster.winfo_children ():
+        widget.destroy ()
+    Diablo_4_Auswahlliste = ["Barbar", "Druide", "Geistgeborener", "Jäger", "Totenbeschwörer", "Zauberer"]
+    zufaellige_Auswahl_Diablo_4 = random.choice (Diablo_4_Auswahlliste)
+    Diablo_4_label = Label (fenster, text=zufaellige_Auswahl_Diablo_4, font=("Arial", 16))
+    Diablo_4_label.grid (row=0, column=0)
