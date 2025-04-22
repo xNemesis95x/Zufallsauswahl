@@ -27,4 +27,7 @@ Wild_Hearts_Button.grid (row=0, column=4)
 Remnant_2_Button = Button (fenster, text="Remnant 2", command=lambda:Remnant_2_Auswahl (fenster))
 Remnant_2_Button.grid (row=0, column=5)
 
+Last_Epoch_Button = Button (fenster, text="Last Epoch", command=lambda:Last_Epoch_Auswahl (fenster))
+Last_Epoch_Button.grid (row=0, column=6)
+
 fenster.mainloop()
