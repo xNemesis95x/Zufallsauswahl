@@ -5,7 +5,6 @@ def Zufallsauswahl(fenster):
     for widget in fenster.winfo_children ():
         widget.destroy ()
 
-    # Neue Widgets nur nach Button-Klick erstellen
     global Zufallsauswahl_Eingabefeld, Hinzufuegen_Button, Auswahl_Button
 
     Zufallsauswahl_Liste = []
@@ -22,7 +21,6 @@ def Zufallsauswahl(fenster):
             Ergebnis_label = Label(fenster, text=zufaellige_Auswahl_aus_Liste, font=("Arial", 16))
             Ergebnis_label.grid(row=0, column=0)
 
-    # Erst jetzt die Widgets erstellen und sichtbar machen
     Zufallsauswahl_Eingabefeld = Entry(fenster)
     Zufallsauswahl_Eingabefeld.grid(row=1, column=0)
 
@@ -93,4 +91,13 @@ def Last_Epoch_Auswahl (fenster):
     Last_Epoch_Auswahlliste = ["Mage", "Primalist", "Acolyte", "Rogue", "Sentinel"]
     zufaellige_Auswahl_Last_Epoch = random.choice (Last_Epoch_Auswahlliste)
     Last_Epoch_label = Label (fenster, text=zufaellige_Auswahl_Last_Epoch, font=("Arial", 16))
-    Las_Epoch_label.grid (row=0, column=0)
+    Last_Epoch_label.grid (row=0, column=0)
+
+def Lords_of_the_Fallen_Auswahl (fenster):
+    for widget in fenster.winfo_children ():
+        widget.destroy ()
+    Lords_of_the_Fallen_Auswahlliste = ["Heliger Ritter", "Udirangr-Kriegswolf", "Partisan", "Mournstead-Infanterie", "Schwarzfeder-Waldläufer",
+                                       "Verbannter Nachsteller", "Prediger Orius", "Feuerkultist", "Verdammter"]
+    zufaellige_Auswahl_Lords_of_the_Fallen = random.choice (Lords_of_the_Fallen_Auswahlliste)
+    Lords_of_the_Fallen_label = Label (fenster, text=zufaellige_Auswahl_Lords_of_the_Fallen, font=("Arial", 16))
+    Lords_of_the_Fallen_label.grid (row=0, column=0)
