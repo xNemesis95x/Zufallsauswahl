@@ -101,3 +101,12 @@ def Lords_of_the_Fallen_Auswahl (fenster):
     zufaellige_Auswahl_Lords_of_the_Fallen = random.choice (Lords_of_the_Fallen_Auswahlliste)
     Lords_of_the_Fallen_label = Label (fenster, text=zufaellige_Auswahl_Lords_of_the_Fallen, font=("Arial", 16))
     Lords_of_the_Fallen_label.grid (row=0, column=0)
+
+def Oblivion_Auswahl (fenster):
+    for widget in fenster.winfo_children ():
+        widget.destroy ()
+    Oblivion_Auswahlliste = ["Agent", "Akrobat", "Assassine", "Barbar", "Barde", "Bogenschütze", "Dieb", "Heiler", "Hexenjäger", "Hexer", "Kampfmagier",
+                             "Kreuzritter", "Krieger", "Kundschafter", "Magier", "Mönch", "Pilger", "Ritter", "Schattenklinge", "Schurke", "Schwertmagier"]
+    zufaellige_Auswahl_Oblivion = random.choice (Oblivion_Auswahlliste)
+    Oblivion_label = Label (fenster, text=zufaellige_Auswahl_Oblivion, font=("Arial", 16))
+    Oblivion_label.grid (row=0, column=0)

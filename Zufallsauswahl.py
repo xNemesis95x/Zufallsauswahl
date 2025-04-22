@@ -33,4 +33,7 @@ Last_Epoch_Button.grid (row=0, column=6)
 Lords_of_the_Fallen_Button = Button (fenster, text="Lords of the Fallen", command=lambda:Lords_of_the_Fallen_Auswahl (fenster))
 Lords_of_the_Fallen_Button.grid (row=2, column=1)
 
+Oblivion_Button = Button (fenster, text="Oblivion", command=lambda:Oblivion_Auswahl (fenster))
+Oblivion_Button.grid (row=0, column=7)
+
 fenster.mainloop()
