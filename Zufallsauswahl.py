@@ -24,4 +24,7 @@ Monster_Hunter_Wilds_Rise_World_Button.grid (row=1, column=1)
 Wild_Hearts_Button = Button (fenster, text="Wild Hearts", command=lambda:Wild_Hearts_Auswahl (fenster))
 Wild_Hearts_Button.grid (row=0, column=4)
 
+Remnant_2_Button = Button (fenster, text="Remnant 2", command=lambda:Remnant_2_Auswahl (fenster))
+Remnant_2_Button.grid (row=0, column=5)
+
 fenster.mainloop()
