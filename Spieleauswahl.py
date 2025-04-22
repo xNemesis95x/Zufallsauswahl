@@ -86,3 +86,11 @@ def Remnant_2_Auswahl (fenster):
     zufaellige_Auswahl_Remnant_2 = random.choice (Remnant_2_Auswahlliste)
     Remnant_2_label = Label (fenster, text=zufaellige_Auswahl_Remnant_2, font=("Arial", 16))
     Remnant_2_label.grid (row=0, column=0)
+
+def Last_Epoch_Auswahl (fenster):
+    for widget in fenster.winfo_children ():
+        widget.destroy ()
+    Last_Epoch_Auswahlliste = ["Mage", "Primalist", "Acolyte", "Rogue", "Sentinel"]
+    zufaellige_Auswahl_Last_Epoch = random.choice (Last_Epoch_Auswahlliste)
+    Last_Epoch_label = Label (fenster, text=zufaellige_Auswahl_Last_Epoch, font=("Arial", 16))
+    Las_Epoch_label.grid (row=0, column=0)
