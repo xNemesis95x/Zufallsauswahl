@@ -3,7 +3,7 @@ from tkinter import *
 
 def erneut_Ausfuehren (fenster, Auswahl):
     erneut_Ausfuehren_button = Button (fenster, text="Erneut ausführen", command=lambda:Auswahl (fenster))
-    erneut_Ausfuehren_button.grid (row=10, column=0)
+    erneut_Ausfuehren_button.grid (row=1, column=0)
     
 def Zufallsauswahl(fenster):
     for widget in fenster.winfo_children ():
@@ -34,6 +34,8 @@ def Zufallsauswahl(fenster):
     Auswahl_Button = Button(fenster, text="Ergebnis anzeigen", command=zufall_auswaehlen)
     Auswahl_Button.grid(row=2, column=0, columnspan=2)
 
+    erneut_Ausfuehren (fenster, Zufallsauswahl)
+
 def WoW_Auswahl(fenster):
     for widget in fenster.winfo_children ():
         widget.destroy ()
@@ -43,6 +45,8 @@ def WoW_Auswahl(fenster):
     zufaellige_Auswahl_WoW = random.choice(WoW_Auswahlliste)
     WoW_label = Label(fenster, text=zufaellige_Auswahl_WoW, font=("Arial", 16))
     WoW_label.grid(row=0, column=0)
+
+    erneut_Ausfuehren (fenster, WoW_Auswahl)
 
 def Baldurs_Gate_3_Auswahl (fenster):
     for widget in fenster.winfo_children ():
@@ -54,6 +58,8 @@ def Baldurs_Gate_3_Auswahl (fenster):
     Baldurs_Gate_3_label = Label (fenster, text=zufaellige_Auswahl_Baldurs_Gate_3, font = ("Arial", 16))
     Baldurs_Gate_3_label.grid (row=0, column=0)
 
+    erneut_Ausfuehren (fenster, Baldurs_Gate_3_Auswahl)
+
 def Diablo_4_Auswahl (fenster):
     for widget in fenster.winfo_children ():
         widget.destroy ()
@@ -61,6 +67,8 @@ def Diablo_4_Auswahl (fenster):
     zufaellige_Auswahl_Diablo_4 = random.choice (Diablo_4_Auswahlliste)
     Diablo_4_label = Label (fenster, text=zufaellige_Auswahl_Diablo_4, font=("Arial", 16))
     Diablo_4_label.grid (row=0, column=0)
+
+    erneut_Ausfuehren (fenster, Diablo_4_Auswahl)
 
 def Monster_Hunter_Wilds_Rise_World_Auswahl (fenster):
     for widget in fenster.winfo_children ():
@@ -72,6 +80,8 @@ def Monster_Hunter_Wilds_Rise_World_Auswahl (fenster):
     Monster_Hunter_Wilds_Rise_World_label = Label (fenster, text=zufaellige_Auswahl_Monster_Hunter_Wilds_Rise_World, font=("Arial", 16))
     Monster_Hunter_Wilds_Rise_World_label.grid (row=0, column=0)
 
+    erneut_Ausfuehren (fenster, Monster_Hunter_Wilds_Rise_World_Auswahl)
+
 def Wild_Hearts_Auswahl (fenster):
     for widget in fenster.winfo_children ():
         widget.destroy ()
@@ -79,6 +89,8 @@ def Wild_Hearts_Auswahl (fenster):
     zufaellige_Auswahl_Wild_Hearts = random.choice (Wild_Hearts_Auswahlliste)
     Wild_Hearts_label = Label (fenster, text=zufaellige_Auswahl_Wild_Hearts, font=("Arial", 16))
     Wild_Hearts_label.grid (row=0, column=0)
+
+    erneut_Ausfuehren (fenster, Wild_Hearts_Auswahl)
 
 def Remnant_2_Auswahl (fenster):
     for widget in fenster.winfo_children ():
@@ -89,6 +101,8 @@ def Remnant_2_Auswahl (fenster):
     Remnant_2_label = Label (fenster, text=zufaellige_Auswahl_Remnant_2, font=("Arial", 16))
     Remnant_2_label.grid (row=0, column=0)
 
+    erneut_Ausfuehren (fenster, Remnant_2_Auswahl)
+
 def Last_Epoch_Auswahl (fenster):
     for widget in fenster.winfo_children ():
         widget.destroy ()
@@ -96,6 +110,8 @@ def Last_Epoch_Auswahl (fenster):
     zufaellige_Auswahl_Last_Epoch = random.choice (Last_Epoch_Auswahlliste)
     Last_Epoch_label = Label (fenster, text=zufaellige_Auswahl_Last_Epoch, font=("Arial", 16))
     Last_Epoch_label.grid (row=0, column=0)
+
+    erneut_Ausfuehren (fenster, Last_Epoch_Auswahl)
 
 def Lords_of_the_Fallen_Auswahl (fenster):
     for widget in fenster.winfo_children ():
@@ -106,6 +122,8 @@ def Lords_of_the_Fallen_Auswahl (fenster):
     Lords_of_the_Fallen_label = Label (fenster, text=zufaellige_Auswahl_Lords_of_the_Fallen, font=("Arial", 16))
     Lords_of_the_Fallen_label.grid (row=0, column=0)
 
+    erneut_Ausfuehren (fenster, Lords_of_the_Fallen_Auswahl)
+
 def Oblivion_Auswahl (fenster):
     for widget in fenster.winfo_children ():
         widget.destroy ()
@@ -115,6 +133,8 @@ def Oblivion_Auswahl (fenster):
     Oblivion_label = Label (fenster, text=zufaellige_Auswahl_Oblivion, font=("Arial", 16))
     Oblivion_label.grid (row=0, column=0)
 
+    erneut_Ausfuehren (fenster, Oblivion_Auswahl)
+
 def Elden_Ring_Auswahl (fenster):
     for widget in fenster.winfo_children ():
         widget.destroy ()
@@ -122,3 +142,5 @@ def Elden_Ring_Auswahl (fenster):
     zufaellige_Auswahl_Elden_Ring = random.choice (Elden_Ring_Auswahlliste)
     Elden_Ring_label = Label (fenster, text=zufaellige_Auswahl_Elden_Ring, font=("Arial", 16))
     Elden_Ring_label.grid (row=0, column=0)
+
+    erneut_Ausfuehren (fenster, Elden_Ring_Auswahl)
