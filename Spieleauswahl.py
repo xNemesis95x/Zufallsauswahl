@@ -166,3 +166,13 @@ def For_the_King_2_Auswahl (fenster):
     For_the_King_2_label.grid (row=0, column=0)
 
     erneut_Ausfuehren (fenster, For_the_King_2_Auswahl)
+
+def Jotunnslayer_Auswahl (fenster):
+    for widget in fenster.winfo_children ():
+        widget.destroy ()
+    Jotunnslayer_Auswahlliste = ["Berserker", "Seherin", "Revenant", "Flammenschwester"]
+    zufaellige_Auswahl_Jotunnslayer = random.choice (Jotunnslayer_Auswahlliste)
+    Jotunnslayer_label = Label (fenster, text=zufaellige_Auswahl_Jotunnslayer, font=("Arial", 16))
+    Jotunnslayer_label.grid (row=0, column=0)
+
+    erneut_Ausfuehren (fenster, Jotunnslayer_Auswahl)
