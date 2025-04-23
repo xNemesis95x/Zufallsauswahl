@@ -36,4 +36,7 @@ Lords_of_the_Fallen_Button.grid (row=2, column=1)
 Oblivion_Button = Button (fenster, text="Oblivion", command=lambda:Oblivion_Auswahl (fenster))
 Oblivion_Button.grid (row=0, column=7)
 
+Elden_Ring_Button = Button (fenster, text="Elden Ring", command=lambda:Elden_Ring_Auswahl (fenster))
+Elden_Ring_Button.grid (row=0, column=8)
+
 fenster.mainloop()
