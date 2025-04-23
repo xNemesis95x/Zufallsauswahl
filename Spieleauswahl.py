@@ -1,6 +1,10 @@
 import random
 from tkinter import *
 
+def erneut_Ausfuehren (fenster, Auswahl):
+    erneut_Ausfuehren_button = Button (fenster, text="Erneut ausführen", command=lambda:Auswahl (fenster))
+    erneut_Ausfuehren_button.grid (row=10, column=0)
+    
 def Zufallsauswahl(fenster):
     for widget in fenster.winfo_children ():
         widget.destroy ()
