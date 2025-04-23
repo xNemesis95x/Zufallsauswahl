@@ -110,3 +110,11 @@ def Oblivion_Auswahl (fenster):
     zufaellige_Auswahl_Oblivion = random.choice (Oblivion_Auswahlliste)
     Oblivion_label = Label (fenster, text=zufaellige_Auswahl_Oblivion, font=("Arial", 16))
     Oblivion_label.grid (row=0, column=0)
+
+def Elden_Ring_Auswahl (fenster):
+    for widget in fenster.winfo_children ():
+        widget.destroy ()
+    Elden_Ring_Auswahlliste = ["Held", "Bandit", "Astrologe", "Krieger", "Gefangener", "Bekenner", "Bettler", "Vagabund", "Prophet", "Samurai"]
+    zufaellige_Auswahl_Elden_Ring = random.choice (Elden_Ring_Auswahlliste)
+    Elden_Ring_label = Label (fenster, text=zufaellige_Auswahl_Elden_Ring, font=("Arial", 16))
+    Elden_Ring_label.grid (row=0, column=0)
