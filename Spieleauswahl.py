@@ -144,3 +144,25 @@ def Elden_Ring_Auswahl (fenster):
     Elden_Ring_label.grid (row=0, column=0)
 
     erneut_Ausfuehren (fenster, Elden_Ring_Auswahl)
+
+def For_the_King_Auswahl (fenster):
+    for widget in fenster.winfo_children ():
+        widget.destroy ()
+    For_the_King_Auswahlliste = ["Schmied", "Jäger", "Minnesänger", "Gelehrter", "Straßenmusiker", "Kräuterkundlerin", "Fallensteller",
+                                 "Holzfäller", "Hobo", "Mönch", "Schatzsucher", "Astronom", "Gladiator"]
+    zufaellige_Auswahl_For_the_King = random.choice (For_the_King_Auswahlliste)
+    For_the_King_label = Label (fenster, text=zufaellige_Auswahl_For_the_King, font=("Arial", 16))
+    For_the_King_label.grid (row=0, column=0)
+
+    erneut_Ausfuehren (fenster, For_the_King_Auswahl)
+
+def For_the_King_2_Auswahl (fenster):
+    for widget in fenster.winfo_children ():
+        widget.destroy ()
+    For_the_King_2_Auswahlliste = ["Alchemist", "Schmied", "Straßenmusiker", "Bauer", "Mönch", "Kräuterkundlerin", "Hobo", "Jäger",
+                                   "Minnesänger", "Pfadfinder", "Gelehrter", "Hirte", "Stallbursche", "Holzfäller"]
+    zufaellige_Auswahl_For_the_King_2 = random.choice (For_the_King_2_Auswahlliste)
+    For_the_King_2_label = Label (fenster, text=zufaellige_Auswahl_For_the_King_2, font=("Arial", 16))
+    For_the_King_2_label.grid (row=0, column=0)
+
+    erneut_Ausfuehren (fenster, For_the_King_2_Auswahl)
