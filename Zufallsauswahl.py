@@ -45,7 +45,4 @@ For_the_King_Button.grid (row=0, column=8)
 For_the_King_2_Button = Button (fenster, text="For the King 2", command=lambda:For_the_King_2_Auswahl (fenster))
 For_the_King_2_Button.grid (row=1, column=8)
 
-Jotunnslayer_Button = Button (fenster, text="Jotunnslayer", command=lambda:Jotunnslayer_Auswahl (fenster))
-Jotunnslayer_Button.grid (row=1, column=2)
-
 fenster.mainloop()
