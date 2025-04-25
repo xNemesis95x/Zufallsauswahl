@@ -172,7 +172,7 @@ def Deep_Rock_Galactic_Auswahl (fenster):
         widget.destroy ()
     Deep_Rock_Galactic_Auswahlliste = ["Ingenieur", "Schütze", "Bohrer", "Späher"]
     zufaellige_Auswahl_Deep_Rock_Galactic = random.choice (Deep_Rock_Galactic_Auswahlliste)
-    Deep_Rock_Galactic_label = Label (fenster, text=zufaellige_Auswahl_Deep_Rock_Galactic, font=("Arial", 16)
+    Deep_Rock_Galactic_label = Label (fenster, text=zufaellige_Auswahl_Deep_Rock_Galactic, font=("Arial", 16))
     Deep_Rock_Galactic_label.grid (row=0, column=0)
 
     erneut_Ausfuehren (fenster, Deep_Rock_Galactic_Auswahl)
