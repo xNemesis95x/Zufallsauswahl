@@ -176,3 +176,13 @@ def Deep_Rock_Galactic_Auswahl (fenster):
     Deep_Rock_Galactic_label.grid (row=0, column=0)
 
     erneut_Ausfuehren (fenster, Deep_Rock_Galactic_Auswahl)
+
+def Terraria_Auswahl (fenster):
+    for widget in fenster.winfo_children ():
+        widget.destroy ()
+    Terraria_Auswahlliste = ["Nahkämpfer", "Magier", "Fernkämpfer", "Beschwörer"]
+    zufaellige_Auswahl_Terraria = random.choice (Terraria_Auswahlliste)
+    Terraria_label = Label (fenster, text=zufaellige_Auswahl_Terraria, font=("Arial", 16))
+    Terraria_label.grid (row=0, column=0)
+
+    erneut_Ausfuehren (fenster, Terraria_Auswahl)

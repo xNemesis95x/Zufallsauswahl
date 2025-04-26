@@ -48,4 +48,7 @@ For_the_King_2_Button.grid (row=1, column=8)
 Deep_Rock_Galactic_Button = Button (fenster, text="Deep Rock Galactic", command=lambda:Deep_Rock_Galactic_Auswahl (fenster))
 Deep_Rock_Galactic_Button.grid (row=3, column=1)
 
+Terraria_Button = Button (fenster, text="Terraria", command=lambda:Terraria_Auswahl (fenster))
+Terraria_Button.grid (row=1, column=0)
+
 fenster.mainloop()
