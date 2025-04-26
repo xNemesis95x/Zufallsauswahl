@@ -197,3 +197,14 @@ def Dragons_Dogma_2_Auswahl (fenster):
     Dragons_Dogma_2_label.grid (row=0, column=0)
 
     erneut_Ausfuehren (fenster, Dragons_Dogma_2_Auswahl)
+
+def Divinity_Original_Sin_2_Auswahl (fenster):
+    for widget in fenster.winfo_children ():
+        widget.destroy ()
+    Divinity_Original_Sin_2_Auswahlliste = ["Hexe", "Zauberer", "Kampfmagier", "Beschwörer", "Verzauberer", "Kämpfer", "Inquisitor", "Metamorph",
+                                       "Ritter", "Kleriker", "Schattenklinge", "Schurke", "Waldläufer", "Wildling"]
+    zufaellige_Auswahl_Divinity_Original_Sin_2 = random.choice (Divinity_Original_Sin_2_Auswahlliste)
+    Divinity_Original_Sin_2_label = Label (fenster, text=zufaellige_Auswahl_Divinity_Original_Sin_2, font=("Arial", 16))
+    Divinity_Original_Sin_2_label.grid (row=0, column=0)
+
+    erneut_Ausfuehren (fenster, Divinity_Original_Sin_2_Auswahl)

@@ -31,7 +31,7 @@ Last_Epoch_Button = Button (fenster, text="Last Epoch", command=lambda:Last_Epoc
 Last_Epoch_Button.grid (row=0, column=6)
 
 Lords_of_the_Fallen_Button = Button (fenster, text="Lords of the Fallen", command=lambda:Lords_of_the_Fallen_Auswahl (fenster))
-Lords_of_the_Fallen_Button.grid (row=2, column=1)
+Lords_of_the_Fallen_Button.grid (row=3, column=1)
 
 Oblivion_Button = Button (fenster, text="Oblivion", command=lambda:Oblivion_Auswahl (fenster))
 Oblivion_Button.grid (row=0, column=7)
@@ -46,12 +46,15 @@ For_the_King_2_Button = Button (fenster, text="For the King 2", command=lambda:F
 For_the_King_2_Button.grid (row=2, column=8)
 
 Deep_Rock_Galactic_Button = Button (fenster, text="Deep Rock Galactic", command=lambda:Deep_Rock_Galactic_Auswahl (fenster))
-Deep_Rock_Galactic_Button.grid (row=3, column=1)
+Deep_Rock_Galactic_Button.grid (row=4, column=1)
 
 Terraria_Button = Button (fenster, text="Terraria", command=lambda:Terraria_Auswahl (fenster))
 Terraria_Button.grid (row=1, column=0)
 
 Dragons_Dogma_2_Button = Button (fenster, text= "Dragon's Dogma 2", command=lambda:Dragons_Dogma_2_Auswahl (fenster))
 Dragons_Dogma_2_Button.grid (row=0, column=8)
+
+Divinity_Original_Sin_2_Button = Button (fenster, text="Divinity Original Sin 2", command=lambda:Divinity_Original_Sin_2_Auswahl (fenster))
+Divinity_Original_Sin_2_Button.grid (row=2, column=1)
 
 fenster.mainloop()
