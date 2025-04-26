@@ -37,18 +37,21 @@ Oblivion_Button = Button (fenster, text="Oblivion", command=lambda:Oblivion_Ausw
 Oblivion_Button.grid (row=0, column=7)
 
 Elden_Ring_Button = Button (fenster, text="Elden Ring", command=lambda:Elden_Ring_Auswahl (fenster))
-Elden_Ring_Button.grid (row=0, column=8)
+Elden_Ring_Button.grid (row=1, column=6)
 
 For_the_King_Button = Button (fenster, text="For the King", command=lambda:For_the_King_Auswahl (fenster))
-For_the_King_Button.grid (row=0, column=8)
+For_the_King_Button.grid (row=1, column=8)
 
 For_the_King_2_Button = Button (fenster, text="For the King 2", command=lambda:For_the_King_2_Auswahl (fenster))
-For_the_King_2_Button.grid (row=1, column=8)
+For_the_King_2_Button.grid (row=2, column=8)
 
 Deep_Rock_Galactic_Button = Button (fenster, text="Deep Rock Galactic", command=lambda:Deep_Rock_Galactic_Auswahl (fenster))
 Deep_Rock_Galactic_Button.grid (row=3, column=1)
 
 Terraria_Button = Button (fenster, text="Terraria", command=lambda:Terraria_Auswahl (fenster))
 Terraria_Button.grid (row=1, column=0)
+
+Dragons_Dogma_2_Button = Button (fenster, text= "Dragon's Dogma 2", command=lambda:Dragons_Dogma_2_Auswahl (fenster))
+Dragons_Dogma_2_Button.grid (row=0, column=8)
 
 fenster.mainloop()

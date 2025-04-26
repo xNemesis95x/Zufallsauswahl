@@ -186,3 +186,14 @@ def Terraria_Auswahl (fenster):
     Terraria_label.grid (row=0, column=0)
 
     erneut_Ausfuehren (fenster, Terraria_Auswahl)
+
+def Dragons_Dogma_2_Auswahl (fenster):
+    for widget in fenster.winfo_children ():
+        widget.destroy ()
+    Dragons_Dogma_2_Auswahlliste = ["Kämpfer", "Bogenschütze", "Magier", "Dieb", "Krieger", "Magiebogenschütze", "mystische Klinge",
+                                    "Erzmagier", "Illusionist", "Kriegsmeister"]
+    zufaellige_Auswahl_Dragons_Dogma_2 = random.choice (Dragons_Dogma_2_Auswahlliste)
+    Dragons_Dogma_2_label = Label (fenster, text=zufaellige_Auswahl_Dragons_Dogma_2, font=("Arial", 16))
+    Dragons_Dogma_2_label.grid (row=0, column=0)
+
+    erneut_Ausfuehren (fenster, Dragons_Dogma_2_Auswahl)
