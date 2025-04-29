@@ -1,4 +1,6 @@
+import random
 from tkinter import *
+from tkinter.ttk import Combobox
 from Spieleauswahl import *
 
 # Fenster erstellen
@@ -9,7 +11,7 @@ fenster.geometry("800x500")
 # Funktion zum Entfernen aller Labels
 def entfernen_aller_Labels():
     for widget in fenster.winfo_children():
-        if isinstance(widget, Label) and widget != dropdown:  # Prüft, ob das Widget ein Label ist
+        if isinstance(widget, Label):  # Nur Labels entfernen, damit Combobox erhalten bleibt
             widget.destroy()
 
 # Mapping von Spielen zu Funktionen
@@ -36,19 +38,20 @@ spiele_mapping = {
 # Liste der Spiele automatisch aus den Keys des Dictionaries erstellen
 spiele = list(spiele_mapping.keys())
 
-# Auswahlvariable für das Dropdown-Menü
+# Auswahlvariable für die Combobox
 auswahl = StringVar()
-auswahl.set(spiele[0])  # Standardauswahl
+auswahl.set("Wähle ein Spiel")  # Standardauswahl
 
 # Funktion zur Auswahl eines Spiels
-def spiel_auswahl(event):
+def spiel_auswahl(event=None):  # event=None erlaubt das Aufrufen der Funktion ohne Event-Parameter
     entfernen_aller_Labels()  # Zuerst alle Labels entfernen
     if auswahl.get() in spiele_mapping:
         spiele_mapping[auswahl.get()](fenster)
 
-# Dropdown-Menü erstellen
-dropdown = OptionMenu(fenster, auswahl, *spiele, command=spiel_auswahl)
-dropdown.grid(row=0, column=0)
+# Combobox erstellen
+combobox = Combobox(fenster, textvariable=auswahl, values=spiele, state="readonly")  # "readonly" verhindert manuelle Eingabe
+combobox.grid(row=0, column=0)
+combobox.bind("<<ComboboxSelected>>", spiel_auswahl)  # Ruft die Funktion auf, wenn eine Auswahl getroffen wird
 
 # Hauptloop starten
 fenster.mainloop()
