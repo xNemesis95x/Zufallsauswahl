@@ -179,3 +179,13 @@ def Divinity_Original_Sin_2_Auswahl (fenster):
     Divinity_Original_Sin_2_label.grid (row=1, column=0)
 
     erneut_Ausfuehren (fenster, Divinity_Original_Sin_2_Auswahl, Divinity_Original_Sin_2_label)
+
+def Shakes_and_Fidget_Auswahl (fenster):
+    Shakes_and_Fidget_Auswahlliste = ["Paladin", "Druide", "Berserker", "Magier", "Kundschafter", "Kampfmagier", "Assassine", "Krieger",
+                                      "Dämonenjäger", "Barde", "Nekromant"]
+    zufaelllige_Auswahl_Shakes_and_Fidget = random.choice (Shakes_and_Fidget_Auswahlliste)
+    Shakes_and_Fidget_label = Label (fenster, text=zufaellige_Auswahl_Shakes_and_Fidget, font=("Arial", 16))
+    Shakes_and_Fidget_label.grid (row=1, column=0)
+
+    erneut_Ausfuehren (fenster, Shakes_and_Fidget_Auswahl, Shakes_and_Fidget_label)
+    
