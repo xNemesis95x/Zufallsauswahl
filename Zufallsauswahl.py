@@ -33,6 +33,7 @@ spiele_mapping = {
     "Terraria": Terraria_Auswahl,
     "Dragon's Dogma 2": Dragons_Dogma_2_Auswahl,
     "Divinity Original Sin 2": Divinity_Original_Sin_2_Auswahl,
+    "Shakes and Fidget": Shakes_and_Fidget_Auswahl,
 }
 
 # Liste der Spiele automatisch aus den Keys des Dictionaries erstellen
