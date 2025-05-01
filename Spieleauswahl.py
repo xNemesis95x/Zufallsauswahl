@@ -189,3 +189,10 @@ def Shakes_and_Fidget_Auswahl (fenster):
 
     erneut_Ausfuehren (fenster, Shakes_and_Fidget_Auswahl, Shakes_and_Fidget_label)
     
+def Borderlands_4_Auswahl (fenster):
+    Borderlands_4_Auswahlliste = ["Amon", "Harlowe", "Rafa", "Vex"]
+    zufaellige_Auswahl_Borderlands_4 = random.choice (Borderlands_4_Auswahlliste)
+    Borderlands_4_label = Label (fenster, text=zufaellige_Auswahl_Borderlands_4, font=("Arial", 16))
+    Borderlands_4_label.grid (row=1, column=0)
+
+    erneut_Ausfuehren (fenster, Borderlands_4_Auswahl, Borderlands_4_label)
