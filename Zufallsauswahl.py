@@ -35,7 +35,8 @@ spiele_mapping = {
     "Divinity Original Sin 2": Divinity_Original_Sin_2_Auswahl,
     "Shakes and Fidget": Shakes_and_Fidget_Auswahl,
     "Borderlands 4" : Borderlands_4_Auswahl,
-    "Fallout 76" : Fallout_76_Auswahl
+    "Fallout 76" : Fallout_76_Auswahl,
+    "Warhammer Vermintdie 2" : Warhammer_Vermintide_2_Auswahl
 }
 
 # Liste der Spiele automatisch aus den Keys des Dictionaries erstellen

@@ -205,3 +205,11 @@ def Fallout_76_Auswahl (fenster):
     Fallout_76_label.grid (row=1, column=0)
 
     erneut_Ausfuehren (fenster, Fallout_76_Auswahl, Fallout_76_label)
+
+def Warhammer_Vermintide_2_Auswahl (fenster):
+    Warhammer_Vermintide_2_Auswahlliste = ["Bardin Goreksson", "Kerillian", "Victor Saltzbrand", "Markus Kruber", "Sienna Fuegonasus"]
+    zufaellige_Auswahl_Warhammer_Vermintide_2 = random.choice (Warhammer_Vermintide_2_Auswahlliste)
+    Warhammer_Vermintide_2_label = Label (fenster, text=zufaellige_Auswahl_Warhammer_Vermintide_2, font=("Arial", 16))
+    Warhammer_Vermintide_2_label.grid (row=1, column=0)
+
+    erneut_Ausfuehren (fenster, Warhammer_Vermintide_2_Auswahl, Warhammer_Vermintide_2_label)
