@@ -196,3 +196,12 @@ def Borderlands_4_Auswahl (fenster):
     Borderlands_4_label.grid (row=1, column=0)
 
     erneut_Ausfuehren (fenster, Borderlands_4_Auswahl, Borderlands_4_label)
+
+def Fallout_76_Auswahl (fenster):
+    Fallout_76_Auswahlliste = ["Pistolen", "nicht-automatisches Gewehr", "vollautomatisches Gewehr", "Bogen / Armbrust", "Shotguns", "schwere Waffen", "explosive Gewehre",
+                               "einhand Nahkampf", "zweihand Nahkampf", "Faustwaffen"]
+    zufaellige_Auswahl_Fallout_76 = random.choice (Fallout_76_Auswahlliste)
+    Fallout_76_label = Label (fenster, text=zufaellige_Auswahl_Fallout_76, font=("Arial", 16))
+    Fallout_76_label.grid (row=1, column=0)
+
+    erneut_Ausfuehren (fenster, Fallout_76_Auswahl, Fallout_76_label)
