@@ -16,27 +16,27 @@ def entfernen_aller_Labels():
 
 # Mapping von Spielen zu Funktionen
 spiele_mapping = {
-    "WoW": WoW_Auswahl,
-    "Zufallsauswahl aus erstellter Liste": Zufallsauswahl,
     "Baldurs Gate 3": Baldurs_Gate_3_Auswahl,
+    "Borderlands 4" : Borderlands_4_Auswahl,
+    "Deep Rock Galactic": Deep_Rock_Galactic_Auswahl,
     "Diablo 4": Diablo_4_Auswahl,
-    "Monster Hunter Wilds/Rise/World": Monster_Hunter_Wilds_Rise_World_Auswahl,
-    "Wild Hearts": Wild_Hearts_Auswahl,
-    "Remnant 2": Remnant_2_Auswahl,
-    "Last Epoch": Last_Epoch_Auswahl,
-    "Lords of the Fallen": Lords_of_the_Fallen_Auswahl,
-    "Oblivion": Oblivion_Auswahl,
+    "Divinity Original Sin 2": Divinity_Original_Sin_2_Auswahl,
+    "Dragon's Dogma 2": Dragons_Dogma_2_Auswahl,
     "Elden Ring": Elden_Ring_Auswahl,
+    "Fallout 76" : Fallout_76_Auswahl,
     "For the King": For_the_King_Auswahl,
     "For the King 2": For_the_King_2_Auswahl,
-    "Deep Rock Galactic": Deep_Rock_Galactic_Auswahl,
-    "Terraria": Terraria_Auswahl,
-    "Dragon's Dogma 2": Dragons_Dogma_2_Auswahl,
-    "Divinity Original Sin 2": Divinity_Original_Sin_2_Auswahl,
+    "Last Epoch": Last_Epoch_Auswahl,
+    "Lords of the Fallen": Lords_of_the_Fallen_Auswahl,
+    "Monster Hunter Wilds/Rise/World": Monster_Hunter_Wilds_Rise_World_Auswahl,
+    "Oblivion": Oblivion_Auswahl,
+    "Remnant 2": Remnant_2_Auswahl,
     "Shakes and Fidget": Shakes_and_Fidget_Auswahl,
-    "Borderlands 4" : Borderlands_4_Auswahl,
-    "Fallout 76" : Fallout_76_Auswahl,
-    "Warhammer Vermintdie 2" : Warhammer_Vermintide_2_Auswahl
+    "Terraria": Terraria_Auswahl,
+    "Warhammer Vermintdie 2" : Warhammer_Vermintide_2_Auswahl,
+    "Wild Hearts": Wild_Hearts_Auswahl,
+    "WoW": WoW_Auswahl,
+    "Zufallsauswahl aus erstellter Liste": Zufallsauswahl
 }
 
 # Liste der Spiele automatisch aus den Keys des Dictionaries erstellen
