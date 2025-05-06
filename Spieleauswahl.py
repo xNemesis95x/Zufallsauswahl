@@ -213,3 +213,27 @@ def Warhammer_Vermintide_2_Auswahl (fenster):
     Warhammer_Vermintide_2_label.grid (row=1, column=0)
 
     erneut_Ausfuehren (fenster, Warhammer_Vermintide_2_Auswahl, Warhammer_Vermintide_2_label)
+
+def Dark_Souls_Auswahl (fenster):
+    Dark_Souls_Auswahlliste = ["Krieger", "Ritter", "Vagabund", "Dieb", "Bandit", "Jäger", "Zauberer", "Pyromant", "Kleriker", "Bettler"]
+    zufaellige_Auswahl_Dark_Souls = random.choice (Dark_Souls_Auswahlliste)
+    Dark_Souls_label = Label (fenster, text=zufaellige_Auswahl_Dark_Souls, font=("Arial", 16))
+    Dark_Souls_label.grid (row=1, column=0)
+
+    erneut_Ausfuehren (fenster, Dark_Souls_Auswahl, Dark_Souls_label)
+
+def Dark_Souls_2_Auswahl (fenster):
+    Dark_Souls_2_Auswahlliste = ["Krieger", "Ritter", "Schwertkämpfer", "Bandit", "Kleriker", "Zauberer", "Erkunder", "Bettler",]
+    zufaellige_Auswahl_Dark_Souls_2 = random.choice (Dark_Souls_2_Auswahlliste)
+    Dark_Souls_2_label = Label (fenster, text=zufaellige_Auswahl_Dark_Souls_2, font=("Arial", 16))
+    Dark_Souls_2_label.grid (row=1, column=0)
+
+    erneut_Ausfuehren (fenster, Dark_Souls_2_Auswahl, Dark_Souls_2_label)
+
+def Dark_Souls_3_Auswahl (fenster):
+    Dark_Souls_3_Auswahlliste = ["Ritter", "Söldner", "Krieger", "Herold", "Dieb", "Assassine", "Zauberer", "Pyromant", "Kleriker", "Bettler"]
+    zufaellige_Auswahl_Dark_Souls_3 = random.choice (Dark_Souls_3_Auswahlliste)
+    Dark_Souls_3_label = Label (fenster, text=zufaellige_Auswahl_Dark_Souls_3, font=("Arial", 16))
+    Dark_Souls_3_label.grid (row=1, column=0)
+
+    erneut_Ausfuehren (fenster, Dark_Souls_3_Auswahl, Dark_Souls_3_label)
