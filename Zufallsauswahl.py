@@ -17,13 +17,16 @@ def entfernen_aller_Labels():
 # Mapping von Spielen zu Funktionen
 spiele_mapping = {
     "Baldurs Gate 3": Baldurs_Gate_3_Auswahl,
-    "Borderlands 4" : Borderlands_4_Auswahl,
+    "Borderlands 4": Borderlands_4_Auswahl,
+    "Dark Souls": Dark_Souls_Auswahl,
+    "Dark Souls 2": Dark_Souls_2_Auswahl,
+    "Dark Souls 3": Dark_Souls_3_Auswahl,
     "Deep Rock Galactic": Deep_Rock_Galactic_Auswahl,
     "Diablo 4": Diablo_4_Auswahl,
     "Divinity Original Sin 2": Divinity_Original_Sin_2_Auswahl,
     "Dragon's Dogma 2": Dragons_Dogma_2_Auswahl,
     "Elden Ring": Elden_Ring_Auswahl,
-    "Fallout 76" : Fallout_76_Auswahl,
+    "Fallout 76": Fallout_76_Auswahl,
     "For the King": For_the_King_Auswahl,
     "For the King 2": For_the_King_2_Auswahl,
     "Last Epoch": Last_Epoch_Auswahl,
@@ -33,7 +36,7 @@ spiele_mapping = {
     "Remnant 2": Remnant_2_Auswahl,
     "Shakes and Fidget": Shakes_and_Fidget_Auswahl,
     "Terraria": Terraria_Auswahl,
-    "Warhammer Vermintdie 2" : Warhammer_Vermintide_2_Auswahl,
+    "Warhammer Vermintdie 2": Warhammer_Vermintide_2_Auswahl,
     "Wild Hearts": Wild_Hearts_Auswahl,
     "WoW": WoW_Auswahl,
     "Zufallsauswahl aus erstellter Liste": Zufallsauswahl
