@@ -237,3 +237,11 @@ def Dark_Souls_3_Auswahl (fenster):
     Dark_Souls_3_label.grid (row=1, column=0)
 
     erneut_Ausfuehren (fenster, Dark_Souls_3_Auswahl, Dark_Souls_3_label)
+
+def Destiny_2_Auswahl (fenster):
+    Destiny_2_Auswahlliste = ["Warlock", "Jäger", "Titan"]
+    zufaellige_Auswahl_Destiny_2 = random.choice (Destiny_2_Auswahlliste)
+    Destiny_2_label = Label (fenster, text=zufaellige_Auswahl_Destiny_2, font=("Arial", 16))
+    Destiny_2_label.grid (row=1, column=0)
+
+    erneut_Ausfuehren (fenster, Destiny_2_Auswahl, Destiny_2_label)
