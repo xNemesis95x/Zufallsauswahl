@@ -22,6 +22,7 @@ spiele_mapping = {
     "Dark Souls 2": Dark_Souls_2_Auswahl,
     "Dark Souls 3": Dark_Souls_3_Auswahl,
     "Deep Rock Galactic": Deep_Rock_Galactic_Auswahl,
+    "Destiny 2" : Destiny_2_Auswahl,
     "Diablo 4": Diablo_4_Auswahl,
     "Divinity Original Sin 2": Divinity_Original_Sin_2_Auswahl,
     "Dragon's Dogma 2": Dragons_Dogma_2_Auswahl,
