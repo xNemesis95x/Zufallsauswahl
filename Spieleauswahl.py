@@ -245,3 +245,19 @@ def Destiny_2_Auswahl (fenster):
     Destiny_2_label.grid (row=1, column=0)
 
     erneut_Ausfuehren (fenster, Destiny_2_Auswahl, Destiny_2_label)
+
+def The_Elder_Scrolls_Online_Auswahl (fenster):
+    The_Elder_Scrolls_Online_Auswahlliste = ["Drachenritter", "Zauberer", "Nachtklinge", "Hüter", "Nekromant", "Templer", "Arkanist"]
+    zufaellige_Auswahl_The_Elder_Scrolls_Online = random.choice (The_Elder_Scrolls_Online_Auswahlliste)
+    The_Elder_Scrolls_Online_label = Label (fenster, text=zufaellige_Auswahl_The_Elder_Scrolls_Online, font=("Arial", 16))
+    The_Elder_Scrolls_Online_label.grid (row=1, column=0)
+
+    erneut_Ausfuehren (fenster, The_Elder_Scrolls_Online_Auswahl, The_Elder_Scrolls_Online_label)
+
+def SWTOR_Auswahl (fenster):
+    SWTOR_Auswahlliste = ["Jedi-Botschafter", "Imperialer Agent", "Jedi-Ritter", "Kopfgeldjäger", "Schmuggler", "Sith-Inquisitor", "Soldat", "Sith-Krieger"]
+    zufaellige_Auswahl_SWTOR = random.choice (SWTOR_Auswahlliste)
+    SWTOR_label = Label (fenster, text=zufaellige_Auswahl_SWTOR, font=("Arial", 16))
+    SWTOR_label.grid (row=1, column=0)
+
+    erneut_Ausfuehren (fenster, SWTOR_Auswahl, SWTOR_label)
