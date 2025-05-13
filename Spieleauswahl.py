@@ -261,3 +261,13 @@ def SWTOR_Auswahl (fenster):
     SWTOR_label.grid (row=1, column=0)
 
     erneut_Ausfuehren (fenster, SWTOR_Auswahl, SWTOR_label)
+
+def Final_Fantasy_XIV_Auswahl (fenster):
+    Final_Fantasy_XIV_Auswahlliste = ["Paladin", "Krieger", "Dunkelritter", "Revolverklinge", "Weißmagier", "Gelehrter", "Astrologe", "Weiser", "Mönch",
+                                      "Dragoon", "Ninja", "Samurai", "Schnitter", "Viper", "Barde", "Maschinist", "Tänzer", "Schwarzmagier",
+                                      "Beschwörer", "Rotmagier", "Piktomant", "Blaumagier"]
+    zufaellige_Auswahl_Final_Fantasy_XIV = random.choice (Final_Fantasy_XIV_Auswahlliste)
+    Final_Fantasy_XIV_label = Label (fenster, text=zufaellige_Auswahl_Final_Fantasy_XIV, font=("Arial", 16))
+    Final_Fantasy_XIV_label.grid (row=1, column=0)
+
+    erneut_Ausfuehren (fenster, Final_Fantasy_XIV_Auswahl, Final_Fantasy_XIV_label)

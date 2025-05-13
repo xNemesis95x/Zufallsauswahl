@@ -28,6 +28,7 @@ spiele_mapping = {
     "Dragon's Dogma 2": Dragons_Dogma_2_Auswahl,
     "Elden Ring": Elden_Ring_Auswahl,
     "Fallout 76": Fallout_76_Auswahl,
+    "Final Fantasy XIV (Online)": Final_Fantasy_XIV_Auswahl,
     "For the King": For_the_King_Auswahl,
     "For the King 2": For_the_King_2_Auswahl,
     "Last Epoch": Last_Epoch_Auswahl,
