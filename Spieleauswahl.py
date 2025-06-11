@@ -271,3 +271,11 @@ def Final_Fantasy_XIV_Auswahl (fenster):
     Final_Fantasy_XIV_label.grid (row=1, column=0)
 
     erneut_Ausfuehren (fenster, Final_Fantasy_XIV_Auswahl, Final_Fantasy_XIV_label)
+
+def Dragons_Dogma_Auswahl (fenster):
+    Dragons_Dogma_Auswahlliste = ["Kämpfer", "Magier", "Streicher", "Krieger", "Erzmagier", "Waldläufer", "Assassine", "Mystischer Ritter", "Magischer Bogenschütze"]
+    zufaellige_Auswahl_Dragons_Dogma = random.choice (Dragons_Dogma_Auswahlliste)
+    Dragons_Dogma_label = Label (fenster, text=zufaellige_Auswahl_Dragons_Dogma, font=("Arial", 16))
+    Dragons_Dogma_label.grid (row=1, column=0)
+
+    erneut_Ausfuehren (fenster, Dragons_Dogma_Auswahl, Dragons_Dogma_label)

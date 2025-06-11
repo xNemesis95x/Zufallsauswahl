@@ -25,6 +25,7 @@ spiele_mapping = {
     "Destiny 2" : Destiny_2_Auswahl,
     "Diablo 4": Diablo_4_Auswahl,
     "Divinity Original Sin 2": Divinity_Original_Sin_2_Auswahl,
+    "Dragon's Dogma" : Dragons_Dogma_Auswahl,
     "Dragon's Dogma 2": Dragons_Dogma_2_Auswahl,
     "Elden Ring": Elden_Ring_Auswahl,
     "Fallout 76": Fallout_76_Auswahl,
