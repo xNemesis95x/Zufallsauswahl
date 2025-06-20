@@ -17,6 +17,7 @@ def entfernen_aller_Labels():
 # Mapping von Spielen zu Funktionen
 spiele_mapping = {
     "Baldurs Gate 3": Baldurs_Gate_3_Auswahl,
+    "Barony": Barony_Auswahl,
     "Borderlands 4": Borderlands_4_Auswahl,
     "Dark Souls": Dark_Souls_Auswahl,
     "Dark Souls 2": Dark_Souls_2_Auswahl,
