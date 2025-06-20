@@ -288,4 +288,3 @@ def Barony_Auswahl (fenster):
     Barony_label.grid (row=1, column=0)
 
     erneut_Ausfuehren (fenster, Barony_Auswahl, Barony_label)
-    #test
