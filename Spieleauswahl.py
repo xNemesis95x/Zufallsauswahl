@@ -279,3 +279,12 @@ def Dragons_Dogma_Auswahl (fenster):
     Dragons_Dogma_label.grid (row=1, column=0)
 
     erneut_Ausfuehren (fenster, Dragons_Dogma_Auswahl, Dragons_Dogma_label)
+
+def Barony_Auswahl (fenster):
+    Barony_Auswahlliste = ["Barbarian", "Warrior", "Healer", "Rogue", "Wizard", "Merchant", "Cleric", "Wanderer", "Arcanist", "Joker", "Sexton", "Ninja", "Mesmer", "Accursed",
+                          "Conjurer", "Monk", "Brewer", "Mechanist", "Punisher", "Shaman", "Hunter"]
+    zufaellige_Auswahl_Barony = random.choice (Barony_Auswahlliste)
+    Barony_label = Label (fenster, text=zufaellige_Auswahl_Barony, font=("Arial", 16))
+    Barony_label.grid (row=1, column=0)
+
+    erneut_Ausfuehren (fenster, Barony_Auswahl, Barony_label)
