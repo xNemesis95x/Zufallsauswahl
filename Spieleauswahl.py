@@ -288,4 +288,13 @@ def Barony_Auswahl (fenster):
     Barony_label.grid (row=1, column=0)
 
     erneut_Ausfuehren (fenster, Barony_Auswahl, Barony_label)
-    #test
+    
+def Pathfinder_Wrath_of_the_Righteous_Auswahl (fenster):
+    Pathfinder_Wrath_of_the_Righteous_Auswahlliste = ["Alchemist", "Arcanist", "Barbarian", "Bard", "Bloodrager", "Cavalier", "Cleric", "Druid", "Fighter", "Hunter",
+                                                      "Inquisitor", "Kineticist", "Magus", "Monk", "Oracle", "Paladin", "Ranger", "Rogue", "Shaman", "Shifter", "Skald",
+                                                      "Slayer", "Sorcerer", "Warpriest", "Witch", "Wizard"]
+    zufaellige_Auswahl_Pathfinder_Wrath_of_the_Righteous = random.choice (Pathfinder_Wrath_of_the_Righteous_Auswahlliste)
+    Pathfinder_Wrath_of_the_Righteous_label = Label (fenster, text= zufaellige_Auswahl_Pathfinder_Wrath_of_the_Righteous, font=("Arial", 16)
+    Pathfinder_Wrath_of_the_Righteous_label.grid (row=1, column=0)
+
+    erneut_Ausfuehren (fenster, Pathfinder_Wrath_of_the_Righteous_Auswahl, Pathfinder_Wrath_of_the_Righteous_label)
