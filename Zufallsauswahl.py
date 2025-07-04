@@ -37,6 +37,7 @@ spiele_mapping = {
     "Lords of the Fallen": Lords_of_the_Fallen_Auswahl,
     "Monster Hunter Wilds/Rise/World": Monster_Hunter_Wilds_Rise_World_Auswahl,
     "Oblivion": Oblivion_Auswahl,
+    "Pathfinder: Wrath of the Righteous" : Pathfinder_Wrath_of_the_Righteous_Auswahl,
     "Remnant 2": Remnant_2_Auswahl,
     "Shakes and Fidget": Shakes_and_Fidget_Auswahl,
     "SWTOR": SWTOR_Auswahl,
