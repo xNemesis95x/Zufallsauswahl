@@ -36,6 +36,7 @@ spiele_mapping = {
     "Last Epoch": Last_Epoch_Auswahl,
     "Lords of the Fallen": Lords_of_the_Fallen_Auswahl,
     "Monster Hunter Wilds/Rise/World": Monster_Hunter_Wilds_Rise_World_Auswahl,
+    "Monster Hunter Stories 2": Monster_Hunter_Stories_2_Auswahl,
     "Oblivion": Oblivion_Auswahl,
     "Pathfinder: Wrath of the Righteous" : Pathfinder_Wrath_of_the_Righteous_Auswahl,
     "Remnant 2": Remnant_2_Auswahl,

@@ -298,3 +298,12 @@ def Pathfinder_Wrath_of_the_Righteous_Auswahl (fenster):
     Pathfinder_Wrath_of_the_Righteous_label.grid (row=1, column=0)
 
     erneut_Ausfuehren (fenster, Pathfinder_Wrath_of_the_Righteous_Auswahl, Pathfinder_Wrath_of_the_Righteous_label)
+
+def Monster_Hunter_Stories_2_Auswahl (fenster):
+    Monster_Hunter_Stories_2_Auswahlliste = ["Großschwert, Hammer, Bogen", "Großschwert, Hammer, Gewehrlanze", "Großschwert, Jagdhorn, Bogen", "Großschwert, Jagdhorn, Gewehrlanze",
+                                             "Schwert&Schild, Hammer, Bogen", "Schwert&Schild, Hammer, Gewehrlanze", "Schwert&Schild, Jagdhorn, Bogen", "Schwert&Schild, Jagdhorn, Gewehrlanze"]
+    zufaellige_Auswahl_Monster_Hunter_Stories_2 = random.choice (Monster_Hunter_Stories_2_Auswahlliste)
+    Monster_Hunter_Stories_2_label = Label (fenster, text=zufaellige_Auswahl_Monster_Hunter_Stories_2, font=("Arial", 16))
+    Monster_Hunter_Stories_2_label.grid (row=1, column=0)
+
+    erneut_Ausfuehren (fenster, Monster_Hunter_Stories_2_Auswahl, Monster_Hunter_Stories_2_label)
