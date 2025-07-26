@@ -307,3 +307,11 @@ def Monster_Hunter_Stories_2_Auswahl (fenster):
     Monster_Hunter_Stories_2_label.grid (row=1, column=0)
 
     erneut_Ausfuehren (fenster, Monster_Hunter_Stories_2_Auswahl, Monster_Hunter_Stories_2_label)
+
+def Borderlands_3_Auswahl (fenster):
+    Borderlands_3_Auswahlliste = ["Amara", "Zane", "FL4K", "Moze"]
+    zufaellige_Auswahl_Borderlands_3= random.choice (Borderlands_3_Auswahlliste)
+    Borderlands_3_label = Label (fenster, text=zufaellige_Auswahl_Borderlands_3, font=("Arial", 16))
+    Borderlands_3_label.grid (row=1, column=0)
+
+    erneut_Ausfuehren (fenster, Borderlands_3_Auswahl, Borderlands_3_label)
