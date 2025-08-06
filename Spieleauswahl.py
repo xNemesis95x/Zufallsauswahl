@@ -321,3 +321,5 @@ def Broderlands_2_Auswahl (fenster):
     zufaellige_Auswahl_Borderlands_2 = random.choice (Broderlands_2_Auswahlliste)
     Broderlands_2_label = Label (fenster, text=zufaellige_Auswahl_Borderlands_2, font=("Arial", 16))
     Broderlands_2_label.grid (row=1, column=0)
+
+    erneut_Ausfuehren (fenster, Broderlands_2_Auswahl, Broderlands_2_label)
