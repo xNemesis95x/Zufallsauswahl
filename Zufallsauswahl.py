@@ -35,6 +35,7 @@ spiele_mapping = {
     "Final Fantasy XIV (Online)": Final_Fantasy_XIV_Auswahl,
     "For the King": For_the_King_Auswahl,
     "For the King 2": For_the_King_2_Auswahl,
+    "Guild Wars 2": Guild_Wars_2_Auswahl,
     "Last Epoch": Last_Epoch_Auswahl,
     "Lords of the Fallen": Lords_of_the_Fallen_Auswahl,
     "Monster Hunter Wilds/Rise/World": Monster_Hunter_Wilds_Rise_World_Auswahl,

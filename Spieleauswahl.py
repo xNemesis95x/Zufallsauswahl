@@ -323,3 +323,11 @@ def Broderlands_2_Auswahl (fenster):
     Broderlands_2_label.grid (row=1, column=0)
 
     erneut_Ausfuehren (fenster, Broderlands_2_Auswahl, Broderlands_2_label)
+
+def Guild_Wars_2_Auswahl (fenster):
+    Guild_Wars_2_Auswahlliste = ["Mesmer", "Wächter", "Nekromant", "Waldläufer", "Elementarmagier", "Krieger", "Dieb", "Ingenieur", "Wiedergänger"]
+    zufaellige_Auswahl_Guild_Wars_2 = random.choice (Guild_Wars_2_Auswahlliste)
+    Guild_Wars_2_label = Label (fenster, text=zufaellige_Auswahl_Guild_Wars_2, font=("Arial", 16))
+    Guild_Wars_2_label.grid (row=1, column=0)
+
+    erneut_Ausfuehren (fenster, Guild_Wars_2_Auswahl, Guild_Wars_2_label)
