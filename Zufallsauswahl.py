@@ -48,6 +48,7 @@ spiele_mapping = {
     "Terraria": lambda fenster: Spieleauswahl (fenster, Terraria_Auswahlliste),
     "The Elder Scrolls Online": lambda fenster: Spieleauswahl (fenster, The_Elder_Scrolls_Online_Auswahlliste),
     "The Outer Worlds": lambda fenster: Spieleauswahl (fenster, The_Outer_Worlds_Auswahlliste),
+    "The Outer Worlds 2": lambda fenster: Spieleauswahl (fenster, The_Outer_Worlds_2_Auswahlliste),
     "Warhammer Vermintdie 2": lambda fenster: Spieleauswahl (fenster, Warhammer_Vermintide_2_Auswahlliste),
     "Wild Hearts": lambda fenster: Spieleauswahl (fenster, Wild_Hearts_Auswahlliste),
     "WoW": lambda fenster: Spieleauswahl (fenster, WoW_Auswahlliste),
