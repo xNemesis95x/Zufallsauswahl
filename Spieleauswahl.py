@@ -134,3 +134,5 @@ Borderlands_3_Auswahlliste = ["Amara", "Zane", "FL4K", "Moze"]
 Broderlands_2_Auswahlliste = ["Axton", "Salvador", "Maya", "Zero", "Gaige", "Krieg"]
 
 Guild_Wars_2_Auswahlliste = ["Mesmer", "Wächter", "Nekromant", "Waldläufer", "Elementarmagier", "Krieger", "Dieb", "Ingenieur", "Wiedergänger"]
+
+The_Outer_Worlds_Auswahlliste = ["Einhänder Nahkampf", "Zweihänder Nahkampf", "Handfeuerwaffen", "Langwaffen", "Schwere Waffen"]
