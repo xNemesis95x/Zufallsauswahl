@@ -136,3 +136,5 @@ Broderlands_2_Auswahlliste = ["Axton", "Salvador", "Maya", "Zero", "Gaige", "Kri
 Guild_Wars_2_Auswahlliste = ["Mesmer", "Wächter", "Nekromant", "Waldläufer", "Elementarmagier", "Krieger", "Dieb", "Ingenieur", "Wiedergänger"]
 
 The_Outer_Worlds_Auswahlliste = ["Einhänder Nahkampf", "Zweihänder Nahkampf", "Handfeuerwaffen", "Langwaffen", "Schwere Waffen"]
+
+The_Outer_Worlds_2_Auswahlliste = ["Einhänder Nahkampf", "Zweihänder Nahkampf", "Handfeuerwaffen", "Langwaffen", "Schwere Waffen", "Wissenschaftswaffen"]
