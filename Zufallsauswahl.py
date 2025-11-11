@@ -28,6 +28,7 @@ spiele_mapping = {
     "Destiny 2" :lambda fenster: Spieleauswahl (fenster, Destiny_2_Auswahlliste),
     "Diablo 4": lambda fenster: Spieleauswahl (fenster, Diablo_4_Auswahlliste),
     "Divinity Original Sin 2": lambda fenster: Spieleauswahl (fenster, Divinity_Original_Sin_2_Auswahlliste),
+    "Dota 2": lambda fenster: Spieleauswahl (fenster, Dota_2_Auswahlliste),
     "Dragon's Dogma" : lambda fenster: Spieleauswahl (fenster, Dragons_Dogma_Auswahlliste),
     "Dragon's Dogma 2": lambda fenster: Spieleauswahl (fenster, Dragons_Dogma_2_Auswahlliste),
     "Elden Ring": lambda fenster: Spieleauswahl (fenster, Elden_Ring_Auswahlliste),
