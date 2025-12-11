@@ -150,3 +150,6 @@ Dota_2_Auswahlliste = ["Abaddon", "Alchemist", "Ancient Apparition", "Anti-Mage"
                        "Sniper", "Spectre", "Spirit Breaker", "Storm Spirit", "Sven", "Techies", "Templar Assassin", "Terrorblade", "Tidehunter", "Timbersaw", "Tinker", "Tiny",
                        "Treant Protector", "Troll Warlord", "Tusk", "Underlord", "Undying", "Ursa", "Vengeful Spirit", "Venomancer", "Viper", "Visage", "Void Spirit", "Warlock",
                        "Weaver", "Windranger", "Winter Wyvern", "Witch Doctor", "Wraith King", "Zeugs"]
+
+Tainted_Grail_Fall_of_Avalon_Auswahlliste = ["Ich war unterwegs, um mich zur Armee zu melden", "Ich war auf der Jagd", "Ich habe mich vor der Stadtwachen versteckt", 
+                                             "Ich war auf der Suche nach einer alten Kultstätte", "Schweigen"]

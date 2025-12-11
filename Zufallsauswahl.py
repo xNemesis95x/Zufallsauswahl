@@ -46,6 +46,7 @@ spiele_mapping = {
     "Remnant 2": lambda fenster: Spieleauswahl (fenster, Remnant_2_Auswahlliste),
     "Shakes and Fidget": lambda fenster: Spieleauswahl (fenster, Shakes_and_Fidget_Auswahlliste),
     "SWTOR": lambda fenster: Spieleauswahl (fenster, SWTOR_Auswahlliste),
+    "Tainted Grail: Fall of Avalon": lambda fenster: Spieleauswahl (fenster, Tainted_Grail_Fall_of_Avalon_Auswahlliste),
     "Terraria": lambda fenster: Spieleauswahl (fenster, Terraria_Auswahlliste),
     "The Elder Scrolls Online": lambda fenster: Spieleauswahl (fenster, The_Elder_Scrolls_Online_Auswahlliste),
     "The Outer Worlds": lambda fenster: Spieleauswahl (fenster, The_Outer_Worlds_Auswahlliste),
