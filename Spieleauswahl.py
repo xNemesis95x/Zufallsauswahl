@@ -79,7 +79,8 @@ For_the_King_Auswahlliste = ["Schmied", "Jäger", "Minnesänger", "Gelehrter", "
                              "Holzfäller", "Hobo", "Mönch", "Schatzsucher", "Astronom", "Gladiator"]
 
 For_the_King_2_Auswahlliste = ["Alchemist", "Schmied", "Straßenmusiker", "Bauer", "Mönch", "Kräuterkundlerin", "Hobo", "Jäger",
-                               "Minnesänger", "Pfadfinder", "Gelehrter", "Hirte", "Stallbursche", "Holzfäller"]
+                               "Minnesänger", "Pfadfinder", "Gelehrter", "Hirte", "Stallbursche", "Holzfäller", "Spielzeugmacher", "Wahrsager"
+                               "Gefallener Ritter", "Leerenwandler", "Imker", "Angler"]
 
 Deep_Rock_Galactic_Auswahlliste = ["Ingenieur", "Schütze", "Bohrer", "Späher"]
 
