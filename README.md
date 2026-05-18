@@ -36,7 +36,8 @@ Das Projekt wird regelmäßig erweitert und enthält aktuell über 40 Spiele mit
 
 ---
 
-📌 Warum dieses Projekt?
+## 📌 Warum dieses Projekt?
+
 Ich wollte ein Tool entwickeln, das mir und meinen Freunden hilft, bei RPGs, ARPGs und anderen Spielen
 zufällige Klassen oder Builds auszuwählen. Da viele Spiele regelmäßig neue Klassen erhalten, wurde das
 Projekt bewusst so gestaltet, dass es schnell und unkompliziert erweiterbar ist.
