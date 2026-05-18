@@ -1,6 +1,15 @@
+#============================================================
+# FUNTKIONEN BZGL. DER SPIELEAUSWAHL
+#
+# (Diese Datei enthält bewusst ALLE Datenlisten, da das
+# Projekt regelmäßig erweitert wird und eine zentrale Stelle
+# die Pflege deutlich erleichtert.)
+#============================================================
+
 import random
 from tkinter import *
 
+# Funktion zur Erzeugung eines erneut Ausführen Buttons
 def erneut_Ausfuehren (fenster, Auswahl, label_to_destroy):
     def destroy_label ():
         label_to_destroy.destroy ()
@@ -12,13 +21,15 @@ def erneut_Ausfuehren (fenster, Auswahl, label_to_destroy):
     erneut_Ausfuehren_button = Button (fenster, text="Erneut ausführen", command=combined_function)
     erneut_Ausfuehren_button.grid (row=4, column=0)
 
+# Funktion zur Auswahl einer Klasse aus einer vorgegebenen Liste
 def Spieleauswahl (fenster, liste):
     zufaellige_Auswahl_spiel = random.choice (liste)
     spielename_label = Label (fenster, text=zufaellige_Auswahl_spiel, font=("Arial", 16))
     spielename_label.grid (row=1, column=0)
 
     erneut_Ausfuehren (fenster, lambda fenster: Spieleauswahl (fenster, liste), spielename_label)
-    
+
+# Zusatzfunktion zur spontanen Erstellung einer eigenen Liste   
 def Zufallsauswahl(fenster):
     global Zufallsauswahl_Eingabefeld, Hinzufuegen_Button, Auswahl_Button
 
@@ -45,6 +56,12 @@ def Zufallsauswahl(fenster):
     Auswahl_Button = Button(fenster, text="Ergebnis anzeigen", command=zufall_auswaehlen)
     Auswahl_Button.grid(row=3, column=1, columnspan=2)
 
+#============================================================
+# DATENLISTEN FÜR SPIELE
+# (Bewusst in einer Datei, da häufige Erweiterungen außerdem
+# bewusst nicht alphabetisch Sortiert da Ergänzungen anhand
+# von DLC Releasen erfolgen.)
+#============================================================
 
 WoW_Auswahlliste = ["Krieger", "Magier", "Paladin", "Jäger", "Schurke", "Priester", 
                     "Schamane", "Hexenmeister", "Mönch", "Druide", "Dämonenjäger", 

@@ -15,6 +15,7 @@ def entfernen_aller_Labels():
             widget.destroy()
 
 # Mapping von Spielen zu Funktionen
+# (Das Mapping ist absichtlich zwecks Übersichtlichkeit so gehalten)
 spiele_mapping = {
     "Baldurs Gate 3": lambda fenster: Spieleauswahl (fenster, Baldurs_Gate_3_Auswahlliste),
     "Barony": lambda fenster: Spieleauswahl (fenster, Barony_Auswahlliste),
