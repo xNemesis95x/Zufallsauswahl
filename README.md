@@ -43,6 +43,6 @@ Projekt bewusst so gestaltet, dass es schnell und unkompliziert erweiterbar ist.
 
 ---
 
-📄 Lizenz
+## 📄 Lizenz
 Dieses Projekt steht unter der MIT-Lizenz.
 Nutzung, Anpassung und Weitergabe sind erlaubt.
