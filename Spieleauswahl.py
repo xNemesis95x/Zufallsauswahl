@@ -171,3 +171,5 @@ Dota_2_Auswahlliste = ["Abaddon", "Alchemist", "Ancient Apparition", "Anti-Mage"
 
 Tainted_Grail_Fall_of_Avalon_Auswahlliste = ["Ich war unterwegs, um mich zur Armee zu melden", "Ich war auf der Jagd", "Ich habe mich vor der Stadtwachen versteckt", 
                                              "Ich war auf der Suche nach einer alten Kultstätte", "Schweigen"]
+
+Deep_Rock_Rogue_Core_Auswahlliste = ["Falknerin", "Wächter", "Rückspäherin", "Schlitzer", "Aufklärer"]

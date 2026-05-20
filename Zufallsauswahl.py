@@ -26,6 +26,7 @@ spiele_mapping = {
     "Dark Souls 2": lambda fenster: Spieleauswahl (fenster, Dark_Souls_2_Auswahlliste),
     "Dark Souls 3": lambda fenster: Spieleauswahl (fenster, Dark_Souls_3_Auswahlliste),
     "Deep Rock Galactic": lambda fenster: Spieleauswahl (fenster, Deep_Rock_Galactic_Auswahlliste),
+    "Deep Rock Rogue Core": lambda fenster: Spieleauswahl (fenster, Deep_Rock_Rogue_Core_Auswahlliste),
     "Destiny 2" :lambda fenster: Spieleauswahl (fenster, Destiny_2_Auswahlliste),
     "Diablo 4": lambda fenster: Spieleauswahl (fenster, Diablo_4_Auswahlliste),
     "Divinity Original Sin 2": lambda fenster: Spieleauswahl (fenster, Divinity_Original_Sin_2_Auswahlliste),
