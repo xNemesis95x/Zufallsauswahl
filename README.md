@@ -3,7 +3,7 @@
 Ein flexibles Python-Tool mit Tkinter-GUI, das zufällig Klassen, Waffen oder Builds aus einer Vielzahl von Spielen auswählt.  
 Ideal für spontane Runs, Challenges oder Gruppenentscheidungen.
 
-Das Projekt wird regelmäßig erweitert und enthält aktuell über 40 Spiele mit jeweils eigenen Auswahllisten.
+Das Projekt wird regelmäßig erweitert.
 
 ---
 
