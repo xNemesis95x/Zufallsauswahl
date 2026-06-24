@@ -63,99 +63,35 @@ def Zufallsauswahl(fenster):
 # von DLC Releasen erfolgen.)
 #============================================================
 
-WoW_Auswahlliste = ["Krieger", "Magier", "Paladin", "Jäger", "Schurke", "Priester", 
-                    "Schamane", "Hexenmeister", "Mönch", "Druide", "Dämonenjäger", 
-                    "Todesritter", "Rufer"]
-
 Baldurs_Gate_3_Auswahlliste = ["Barbar", "Barde", "Druide", "Hexenmeister", 
                                "Kämpfer", "Kleriker", "Magier", "Mönch", "Paladin", 
                                "Schurke", "Waldläufer", "Zauberer"]
 
-Diablo_4_Auswahlliste = ["Barbar", "Druide", "Geistgeborener", "Jäger", "Totenbeschwörer", "Zauberer"]
-    
-Monster_Hunter_Wilds_Rise_World_Auswahlliste = ["Langschwert", "Bogen", "Doppelklingen", "Gewehrlanze", "Großschwert", "schweres Bogengewehr",
-                                                "Energieklinge", "Jagdhorn", "Schwert und Schild", "Morph-Axt", "leichtes Bogengewehr",
-                                                "Hammer", "Insektengleve", "Lanze"]
+Barony_Auswahlliste = ["Barbarian", "Warrior", "Healer", "Rogue", "Wizard", "Merchant", "Cleric", "Wanderer", "Arcanist", "Joker", "Sexton", "Ninja", "Mesmer", "Accursed",
+                       "Conjurer", "Monk", "Brewer", "Mechanist", "Punisher", "Shaman", "Hunter"]
 
-Wild_Hearts_Auswahlliste = ["Krallenklinge", "Bogen", "Karakuri-Katana", "Nodachi", "Handkanone", "Karakuri-Stab", "Hammer", "Klingen-Wagasa"]
+Broderlands_2_Auswahlliste = ["Axton", "Salvador", "Maya", "Zero", "Gaige", "Krieg"]
 
-Remnant_2_Auswahlliste = ["Alchemist", "Archon", "Challenger", "Engineer", "Explorer", "Gunslinger", "Handler", "Hunter", "Invader",
-                          "Invoker", "Medic", "Summoner", "Ritualist", "Warden"]
-    
-Last_Epoch_Auswahlliste = ["Mage", "Primalist", "Acolyte", "Rogue", "Sentinel"]
+Borderlands_3_Auswahlliste = ["Amara", "Zane", "FL4K", "Moze"]
 
-Lords_of_the_Fallen_Auswahlliste = ["Heliger Ritter", "Udirangr-Kriegswolf", "Partisan", "Mournstead-Infanterie", "Schwarzfeder-Waldläufer",
-                                    "Verbannter Nachsteller", "Prediger Orius", "Feuerkultist", "Verdammter"]
-
-Oblivion_Auswahlliste = ["Agent", "Akrobat", "Assassine", "Barbar", "Barde", "Bogenschütze", "Dieb", "Heiler", "Hexenjäger", "Hexer", "Kampfmagier",
-                         "Kreuzritter", "Krieger", "Kundschafter", "Magier", "Mönch", "Pilger", "Ritter", "Schattenklinge", "Schurke", "Schwertmagier"]
-
-Elden_Ring_Auswahlliste = ["Held", "Bandit", "Astrologe", "Krieger", "Gefangener", "Bekenner", "Bettler", "Vagabund", "Prophet", "Samurai"]
-
-For_the_King_Auswahlliste = ["Schmied", "Jäger", "Minnesänger", "Gelehrter", "Straßenmusiker", "Kräuterkundlerin", "Fallensteller",
-                             "Holzfäller", "Hobo", "Mönch", "Schatzsucher", "Astronom", "Gladiator"]
-
-For_the_King_2_Auswahlliste = ["Alchemist", "Schmied", "Straßenmusiker", "Bauer", "Mönch", "Kräuterkundlerin", "Hobo", "Jäger",
-                               "Minnesänger", "Pfadfinder", "Gelehrter", "Hirte", "Stallbursche", "Holzfäller", "Spielzeugmacher", "Wahrsager"
-                               "Gefallener Ritter", "Leerenwandler", "Imker", "Angler"]
-
-Deep_Rock_Galactic_Auswahlliste = ["Ingenieur", "Schütze", "Bohrer", "Späher"]
-
-Terraria_Auswahlliste = ["Nahkämpfer", "Magier", "Fernkämpfer", "Beschwörer"]
-    
-Dragons_Dogma_2_Auswahlliste = ["Kämpfer", "Bogenschütze", "Magier", "Dieb", "Krieger", "Magiebogenschütze", "mystische Klinge",
-                                "Erzmagier", "Illusionist", "Kriegsmeister"]
-
-Divinity_Original_Sin_2_Auswahlliste = ["Hexe", "Zauberer", "Kampfmagier", "Beschwörer", "Verzauberer", "Kämpfer", "Inquisitor", "Metamorph",
-                                        "Ritter", "Kleriker", "Schattenklinge", "Schurke", "Waldläufer", "Wildling"]
-
-Shakes_and_Fidget_Auswahlliste = ["Paladin", "Druide", "Berserker", "Magier", "Kundschafter", "Kampfmagier", "Assassine", "Krieger",
-                                  "Dämonenjäger", "Barde", "Nekromant"]
-    
 Borderlands_4_Auswahlliste = ["Amon", "Harlowe", "Rafa", "Vex"]
-
-Fallout_76_Auswahlliste = ["Pistolen", "nicht-automatisches Gewehr", "vollautomatisches Gewehr", "Bogen / Armbrust", "Shotguns", "schwere Waffen", "explosive Gewehre",
-                           "einhand Nahkampf", "zweihand Nahkampf", "Faustwaffen"]
-
-Warhammer_Vermintide_2_Auswahlliste = ["Bardin Goreksson", "Kerillian", "Victor Saltzbrand", "Markus Kruber", "Sienna Fuegonasus"]
 
 Dark_Souls_Auswahlliste = ["Krieger", "Ritter", "Vagabund", "Dieb", "Bandit", "Jäger", "Zauberer", "Pyromant", "Kleriker", "Bettler"]
 
 Dark_Souls_2_Auswahlliste = ["Krieger", "Ritter", "Schwertkämpfer", "Bandit", "Kleriker", "Zauberer", "Erkunder", "Bettler",]
 
 Dark_Souls_3_Auswahlliste = ["Ritter", "Söldner", "Krieger", "Herold", "Dieb", "Assassine", "Zauberer", "Pyromant", "Kleriker", "Bettler"]
-   
+
+Deep_Rock_Galactic_Auswahlliste = ["Ingenieur", "Schütze", "Bohrer", "Späher"]
+
+Deep_Rock_Rogue_Core_Auswahlliste = ["Falknerin", "Wächter", "Rückspäherin", "Schlitzer", "Aufklärer"]
+
 Destiny_2_Auswahlliste = ["Warlock", "Jäger", "Titan"]
 
-The_Elder_Scrolls_Online_Auswahlliste = ["Drachenritter", "Zauberer", "Nachtklinge", "Hüter", "Nekromant", "Templer", "Arkanist"]
+Diablo_4_Auswahlliste = ["Barbar", "Druide", "Geistgeborener", "Jäger", "Totenbeschwörer", "Zauberer"]
 
-SWTOR_Auswahlliste = ["Jedi-Botschafter", "Imperialer Agent", "Jedi-Ritter", "Kopfgeldjäger", "Schmuggler", "Sith-Inquisitor", "Soldat", "Sith-Krieger"]
-
-Final_Fantasy_XIV_Auswahlliste = ["Paladin", "Krieger", "Dunkelritter", "Revolverklinge", "Weißmagier", "Gelehrter", "Astrologe", "Weiser", "Mönch",
-                                  "Dragoon", "Ninja", "Samurai", "Schnitter", "Viper", "Barde", "Maschinist", "Tänzer", "Schwarzmagier",
-                                  "Beschwörer", "Rotmagier", "Piktomant", "Blaumagier"]
-
-Dragons_Dogma_Auswahlliste = ["Kämpfer", "Magier", "Streicher", "Krieger", "Erzmagier", "Waldläufer", "Assassine", "Mystischer Ritter", "Magischer Bogenschütze"]
-
-Barony_Auswahlliste = ["Barbarian", "Warrior", "Healer", "Rogue", "Wizard", "Merchant", "Cleric", "Wanderer", "Arcanist", "Joker", "Sexton", "Ninja", "Mesmer", "Accursed",
-                       "Conjurer", "Monk", "Brewer", "Mechanist", "Punisher", "Shaman", "Hunter"]
-
-Pathfinder_Wrath_of_the_Righteous_Auswahlliste = ["Alchemist", "Arcanist", "Barbarian", "Bard", "Bloodrager", "Cavalier", "Cleric", "Druid", "Fighter", "Hunter",
-                                                  "Inquisitor", "Kineticist", "Magus", "Monk", "Oracle", "Paladin", "Ranger", "Rogue", "Shaman", "Shifter", "Skald",
-                                                  "Slayer", "Sorcerer", "Warpriest", "Witch", "Wizard"]
-    
-Monster_Hunter_Stories_2_Auswahlliste = ["Großschwert, Hammer, Bogen", "Großschwert, Hammer, Gewehrlanze", "Großschwert, Jagdhorn, Bogen", "Großschwert, Jagdhorn, Gewehrlanze",
-                                         "Schwert&Schild, Hammer, Bogen", "Schwert&Schild, Hammer, Gewehrlanze", "Schwert&Schild, Jagdhorn, Bogen", "Schwert&Schild, Jagdhorn, Gewehrlanze"]
-
-Borderlands_3_Auswahlliste = ["Amara", "Zane", "FL4K", "Moze"]
-
-Broderlands_2_Auswahlliste = ["Axton", "Salvador", "Maya", "Zero", "Gaige", "Krieg"]
-
-Guild_Wars_2_Auswahlliste = ["Mesmer", "Wächter", "Nekromant", "Waldläufer", "Elementarmagier", "Krieger", "Dieb", "Ingenieur", "Wiedergänger"]
-
-The_Outer_Worlds_Auswahlliste = ["Einhänder Nahkampf", "Zweihänder Nahkampf", "Handfeuerwaffen", "Langwaffen", "Schwere Waffen"]
-
-The_Outer_Worlds_2_Auswahlliste = ["Einhänder Nahkampf", "Zweihänder Nahkampf", "Handfeuerwaffen", "Langwaffen", "Schwere Waffen", "Wissenschaftswaffen"]
+Divinity_Original_Sin_2_Auswahlliste = ["Hexe", "Zauberer", "Kampfmagier", "Beschwörer", "Verzauberer", "Kämpfer", "Inquisitor", "Metamorph",
+                                        "Ritter", "Kleriker", "Schattenklinge", "Schurke", "Waldläufer", "Wildling"]
 
 Dota_2_Auswahlliste = ["Abaddon", "Alchemist", "Ancient Apparition", "Anti-Mage", "Arc Warden", "Axe", "Bane", "Batrider", "Beastmaster", "Bloodseeker", "Bounty Hunter", "Brewmaster",
                        "Bristleback", "Broodmother", "Centaur Warrunner", "Chaos Knight", "Chen", "Clinkz", "Clockwerk", "Crystal Maiden", "Dark Seer", "Dark Willow", "Dawnbreaker",
@@ -169,7 +105,71 @@ Dota_2_Auswahlliste = ["Abaddon", "Alchemist", "Ancient Apparition", "Anti-Mage"
                        "Treant Protector", "Troll Warlord", "Tusk", "Underlord", "Undying", "Ursa", "Vengeful Spirit", "Venomancer", "Viper", "Visage", "Void Spirit", "Warlock",
                        "Weaver", "Windranger", "Winter Wyvern", "Witch Doctor", "Wraith King", "Zeugs"]
 
+Dragons_Dogma_Auswahlliste = ["Kämpfer", "Magier", "Streicher", "Krieger", "Erzmagier", "Waldläufer", "Assassine", "Mystischer Ritter", "Magischer Bogenschütze"]
+
+Dragons_Dogma_2_Auswahlliste = ["Kämpfer", "Bogenschütze", "Magier", "Dieb", "Krieger", "Magiebogenschütze", "mystische Klinge",
+                                "Erzmagier", "Illusionist", "Kriegsmeister"]
+
+Elden_Ring_Auswahlliste = ["Held", "Bandit", "Astrologe", "Krieger", "Gefangener", "Bekenner", "Bettler", "Vagabund", "Prophet", "Samurai"]
+
+Fallout_76_Auswahlliste = ["Pistolen", "nicht-automatisches Gewehr", "vollautomatisches Gewehr", "Bogen / Armbrust", "Shotguns", "schwere Waffen", "explosive Gewehre",
+                           "einhand Nahkampf", "zweihand Nahkampf", "Faustwaffen"]
+
+Final_Fantasy_XIV_Auswahlliste = ["Paladin", "Krieger", "Dunkelritter", "Revolverklinge", "Weißmagier", "Gelehrter", "Astrologe", "Weiser", "Mönch",
+                                  "Dragoon", "Ninja", "Samurai", "Schnitter", "Viper", "Barde", "Maschinist", "Tänzer", "Schwarzmagier",
+                                  "Beschwörer", "Rotmagier", "Piktomant", "Blaumagier"]
+
+For_the_King_Auswahlliste = ["Schmied", "Jäger", "Minnesänger", "Gelehrter", "Straßenmusiker", "Kräuterkundlerin", "Fallensteller",
+                             "Holzfäller", "Hobo", "Mönch", "Schatzsucher", "Astronom", "Gladiator"]
+
+For_the_King_2_Auswahlliste = ["Alchemist", "Schmied", "Straßenmusiker", "Bauer", "Mönch", "Kräuterkundlerin", "Hobo", "Jäger",
+                               "Minnesänger", "Pfadfinder", "Gelehrter", "Hirte", "Stallbursche", "Holzfäller", "Spielzeugmacher", "Wahrsager"
+                               "Gefallener Ritter", "Leerenwandler", "Imker", "Angler"]
+
+Guild_Wars_2_Auswahlliste = ["Mesmer", "Wächter", "Nekromant", "Waldläufer", "Elementarmagier", "Krieger", "Dieb", "Ingenieur", "Wiedergänger"]
+
+Last_Epoch_Auswahlliste = ["Mage", "Primalist", "Acolyte", "Rogue", "Sentinel"]
+
+Lords_of_the_Fallen_Auswahlliste = ["Heliger Ritter", "Udirangr-Kriegswolf", "Partisan", "Mournstead-Infanterie", "Schwarzfeder-Waldläufer",
+                                    "Verbannter Nachsteller", "Prediger Orius", "Feuerkultist", "Verdammter"]
+
+Monster_Hunter_Wilds_Rise_World_Auswahlliste = ["Langschwert", "Bogen", "Doppelklingen", "Gewehrlanze", "Großschwert", "schweres Bogengewehr",
+                                                "Energieklinge", "Jagdhorn", "Schwert und Schild", "Morph-Axt", "leichtes Bogengewehr",
+                                                "Hammer", "Insektengleve", "Lanze"]
+
+Monster_Hunter_Stories_2_Auswahlliste = ["Großschwert, Hammer, Bogen", "Großschwert, Hammer, Gewehrlanze", "Großschwert, Jagdhorn, Bogen", "Großschwert, Jagdhorn, Gewehrlanze",
+                                         "Schwert&Schild, Hammer, Bogen", "Schwert&Schild, Hammer, Gewehrlanze", "Schwert&Schild, Jagdhorn, Bogen", "Schwert&Schild, Jagdhorn, Gewehrlanze"]
+
+Oblivion_Auswahlliste = ["Agent", "Akrobat", "Assassine", "Barbar", "Barde", "Bogenschütze", "Dieb", "Heiler", "Hexenjäger", "Hexer", "Kampfmagier",
+                         "Kreuzritter", "Krieger", "Kundschafter", "Magier", "Mönch", "Pilger", "Ritter", "Schattenklinge", "Schurke", "Schwertmagier"]
+
+Pathfinder_Wrath_of_the_Righteous_Auswahlliste = ["Alchemist", "Arcanist", "Barbarian", "Bard", "Bloodrager", "Cavalier", "Cleric", "Druid", "Fighter", "Hunter",
+                                                  "Inquisitor", "Kineticist", "Magus", "Monk", "Oracle", "Paladin", "Ranger", "Rogue", "Shaman", "Shifter", "Skald",
+                                                  "Slayer", "Sorcerer", "Warpriest", "Witch", "Wizard"]
+
+Remnant_2_Auswahlliste = ["Alchemist", "Archon", "Challenger", "Engineer", "Explorer", "Gunslinger", "Handler", "Hunter", "Invader",
+                          "Invoker", "Medic", "Summoner", "Ritualist", "Warden"]
+
+Shakes_and_Fidget_Auswahlliste = ["Paladin", "Druide", "Berserker", "Magier", "Kundschafter", "Kampfmagier", "Assassine", "Krieger",
+                                  "Dämonenjäger", "Barde", "Nekromant"]
+
+SWTOR_Auswahlliste = ["Jedi-Botschafter", "Imperialer Agent", "Jedi-Ritter", "Kopfgeldjäger", "Schmuggler", "Sith-Inquisitor", "Soldat", "Sith-Krieger"]
+
 Tainted_Grail_Fall_of_Avalon_Auswahlliste = ["Ich war unterwegs, um mich zur Armee zu melden", "Ich war auf der Jagd", "Ich habe mich vor der Stadtwachen versteckt", 
                                              "Ich war auf der Suche nach einer alten Kultstätte", "Schweigen"]
 
-Deep_Rock_Rogue_Core_Auswahlliste = ["Falknerin", "Wächter", "Rückspäherin", "Schlitzer", "Aufklärer"]
+Terraria_Auswahlliste = ["Nahkämpfer", "Magier", "Fernkämpfer", "Beschwörer"]
+
+The_Elder_Scrolls_Online_Auswahlliste = ["Drachenritter", "Zauberer", "Nachtklinge", "Hüter", "Nekromant", "Templer", "Arkanist"]
+
+The_Outer_Worlds_Auswahlliste = ["Einhänder Nahkampf", "Zweihänder Nahkampf", "Handfeuerwaffen", "Langwaffen", "Schwere Waffen"]
+
+The_Outer_Worlds_2_Auswahlliste = ["Einhänder Nahkampf", "Zweihänder Nahkampf", "Handfeuerwaffen", "Langwaffen", "Schwere Waffen", "Wissenschaftswaffen"]
+
+Warhammer_Vermintide_2_Auswahlliste = ["Bardin Goreksson", "Kerillian", "Victor Saltzbrand", "Markus Kruber", "Sienna Fuegonasus"]
+
+Wild_Hearts_Auswahlliste = ["Krallenklinge", "Bogen", "Karakuri-Katana", "Nodachi", "Handkanone", "Karakuri-Stab", "Hammer", "Klingen-Wagasa"]
+
+WoW_Auswahlliste = ["Krieger", "Magier", "Paladin", "Jäger", "Schurke", "Priester", 
+                    "Schamane", "Hexenmeister", "Mönch", "Druide", "Dämonenjäger", 
+                    "Todesritter", "Rufer"]
