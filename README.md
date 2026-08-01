@@ -3,6 +3,8 @@
 Ein flexibles Python-Tool mit Tkinter-GUI, das zufällig Klassen, Waffen oder Builds aus einer Vielzahl von Spielen auswählt.  
 Ideal für spontane Runs, Challenges oder Gruppenentscheidungen.
 
+Die Batch Datei ist zum Ausführen des Programms als Exe Ersatz gedacht.
+
 Das Projekt wird regelmäßig erweitert.
 
 ---
