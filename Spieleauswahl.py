@@ -126,6 +126,8 @@ For_the_King_2_Auswahlliste = ["Alchemist", "Schmied", "Straßenmusiker", "Bauer
                                "Minnesänger", "Pfadfinder", "Gelehrter", "Hirte", "Stallbursche", "Holzfäller", "Spielzeugmacher", "Wahrsager"
                                "Gefallener Ritter", "Leerenwandler", "Imker", "Angler"]
 
+Grim_Dawn_Auswahlliste = ["Arcanist", "Demolitionist", "Nightblade", "Occultist", "Shaman", "Soldier", "Inquisitor", "Necromancer", "Oathkeeper", "Berserker"]
+
 Guild_Wars_2_Auswahlliste = ["Mesmer", "Wächter", "Nekromant", "Waldläufer", "Elementarmagier", "Krieger", "Dieb", "Ingenieur", "Wiedergänger"]
 
 Last_Epoch_Auswahlliste = ["Mage", "Primalist", "Acolyte", "Rogue", "Sentinel"]

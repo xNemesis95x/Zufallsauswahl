@@ -38,6 +38,7 @@ spiele_mapping = {
     "Final Fantasy XIV (Online)": lambda fenster: Spieleauswahl (fenster, Final_Fantasy_XIV_Auswahlliste),
     "For the King": lambda fenster: Spieleauswahl (fenster, For_the_King_Auswahlliste),
     "For the King 2": lambda fenster: Spieleauswahl (fenster, For_the_King_2_Auswahlliste),
+    "Grim Dawn": lambda fenster: Spieleauswahl (fenster, Grim_Dawn_Auswahlliste),
     "Guild Wars 2": lambda fenster: Spieleauswahl (fenster, Guild_Wars_2_Auswahlliste),
     "Last Epoch": lambda fenster: Spieleauswahl (fenster, Last_Epoch_Auswahlliste),
     "Lords of the Fallen": lambda fenster: Spieleauswahl (fenster, Lords_of_the_Fallen_Auswahlliste),
