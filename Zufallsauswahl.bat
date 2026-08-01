@@ -1,2 +1,2 @@
 @echo off
-Python/python.exe main.py
+Python/python.exe Zufallsauswahl.py
