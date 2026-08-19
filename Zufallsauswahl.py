@@ -40,6 +40,7 @@ spiele_mapping = {
     "For the King 2": lambda fenster: Spieleauswahl (fenster, For_the_King_2_Auswahlliste),
     "Grim Dawn": lambda fenster: Spieleauswahl (fenster, Grim_Dawn_Auswahlliste),
     "Guild Wars 2": lambda fenster: Spieleauswahl (fenster, Guild_Wars_2_Auswahlliste),
+    "Hero Siege": lambda fenster: Spieleauswahl (fenster, Hero_Siege_Auswahlliste),
     "Last Epoch": lambda fenster: Spieleauswahl (fenster, Last_Epoch_Auswahlliste),
     "Lords of the Fallen": lambda fenster: Spieleauswahl (fenster, Lords_of_the_Fallen_Auswahlliste),
     "Monster Hunter Wilds/Rise/World": lambda fenster: Spieleauswahl (fenster, Monster_Hunter_Wilds_Rise_World_Auswahlliste),
