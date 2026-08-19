@@ -130,6 +130,10 @@ Grim_Dawn_Auswahlliste = ["Arcanist", "Demolitionist", "Nightblade", "Occultist"
 
 Guild_Wars_2_Auswahlliste = ["Mesmer", "Wächter", "Nekromant", "Waldläufer", "Elementarmagier", "Krieger", "Dieb", "Ingenieur", "Wiedergänger"]
 
+Hero_Siege_Auswahlliste = ["Wikinger", "Pyromane", "Scharfschütze", "Piratin", "Nomade", "Redneck", "Nekromant", "Samurai", "Paladin", "Amazone",
+                          "Dämonenjäger", "Dämonenbrut", "Schamane", "Weißer Magier", "Marodeur", "Pestdoktor", "Schild-Lanzenträger", "Illusionistin",
+                          "Jötunn", "Exo", "Metzger", "Sturmweber", "Barde", "Prophet"]
+
 Last_Epoch_Auswahlliste = ["Mage", "Primalist", "Acolyte", "Rogue", "Sentinel"]
 
 Lords_of_the_Fallen_Auswahlliste = ["Heliger Ritter", "Udirangr-Kriegswolf", "Partisan", "Mournstead-Infanterie", "Schwarzfeder-Waldläufer",
