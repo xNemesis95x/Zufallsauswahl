@@ -124,7 +124,7 @@ For_the_King_Auswahlliste = ["Schmied", "Jäger", "Minnesänger", "Gelehrter", "
 
 For_the_King_2_Auswahlliste = ["Alchemist", "Schmied", "Straßenmusiker", "Bauer", "Mönch", "Kräuterkundlerin", "Hobo", "Jäger",
                                "Minnesänger", "Pfadfinder", "Gelehrter", "Hirte", "Stallbursche", "Holzfäller", "Spielzeugmacher", "Wahrsager"
-                               "Gefallener Ritter", "Leerenwandler", "Imker", "Angler"]
+                               "Gefallener Ritter", "Leerenwandler", "Imker", "Angler", "Totengräber", "Faustkämpfer"]
 
 Grim_Dawn_Auswahlliste = ["Arcanist", "Demolitionist", "Nightblade", "Occultist", "Shaman", "Soldier", "Inquisitor", "Necromancer", "Oathkeeper", "Berserker"]
 
