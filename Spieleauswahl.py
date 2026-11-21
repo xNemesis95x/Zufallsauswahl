@@ -116,7 +116,7 @@ Fallout_76_Auswahlliste = ["Pistolen", "nicht-automatisches Gewehr", "vollautoma
                            "einhand Nahkampf", "zweihand Nahkampf", "Faustwaffen"]
 
 Final_Fantasy_XIV_Auswahlliste = ["Paladin", "Krieger", "Dunkelritter", "Revolverklinge", "Weißmagier", "Gelehrter", "Astrologe", "Weiser", "Mönch",
-                                  "Dragoon", "Ninja", "Samurai", "Schnitter", "Viper", "Barde", "Maschinist", "Tänzer", "Schwarzmagier",
+                                  "Dragoon", "Ninja", "Samurai", "Schnitter", "Viper", "Bestienbändiger", "Barde", "Maschinist", "Tänzer", "Schwarzmagier",
                                   "Beschwörer", "Rotmagier", "Piktomant", "Blaumagier"]
 
 For_the_King_Auswahlliste = ["Schmied", "Jäger", "Minnesänger", "Gelehrter", "Straßenmusiker", "Kräuterkundlerin", "Fallensteller",
